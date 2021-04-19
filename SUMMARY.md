@@ -17,12 +17,32 @@
 * [Loading Credentials](kubernetes/loading-credentials.md)
 * [K8S Cheat Sheet](kubernetes/k8s-cheat-sheet.md)
 * [Configure Ingress](kubernetes/configure-ingress.md)
+* [Lets Encrypt](kubernetes/lets-encrypt.md)
 
 ## Hashicorp
 
-* [Untitled](hashicorp/untitled.md)
+* [Intro to Hashi](hashicorp/intro-to-hashi.md)
+* [Install Vault/Consul](hashicorp/install-vault-consul/README.md)
+  * [Setups Azure Hosted Consul](hashicorp/install-vault-consul/setups-azure-hosted-consul.md)
+  * [Setup Consul](hashicorp/install-vault-consul/setup-consul.md)
+  * [Setup Vault](hashicorp/install-vault-consul/setup-vault.md)
+* [Consul](hashicorp/consul/README.md)
+  * [Consul CLI Basics](hashicorp/consul/consul-cli-basics.md)
+* [Vault](hashicorp/vault/README.md)
+  * [Vault CLI Basics](hashicorp/vault/vault-cli-basics.md)
+  * [Vault HA Configuration](hashicorp/vault/vault-ha-configuration.md)
+  * [Vault Unseal](hashicorp/vault/untitled.md)
 
 ## SQL/PGBouncer
 
-* [Untitled](sql-pgbouncer/untitled.md)
+* [pgbouncer](sql-pgbouncer/untitled.md)
+
+## Azure
+
+* [Networking](azure/networking.md)
+* [Setup VPN Certificates](azure/setup-vpn-certificates.md)
+
+## Docker
+
+* [Pulling & Publishing Images](docker/pulling-and-publishing-images.md)
 
