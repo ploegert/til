@@ -30,23 +30,47 @@ I like [chococately](https://chocolatey.org/), so you can install using:
 # install choco
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-# install terraform
-choco install terraform -y
+# Powershell
+choco install pwsh -y
 
-# Verify that you have it installed by typing:
-C:\ > terraform version
-
-#Output
-Terraform v0.12.24
-+ provider.azurerm v1.37.0
+# Aspnetcore
+choco install dotnetcore-windowshosting -y
+choco install dotnetcore -y
+choco install dotnetcore-2.0-sdk -y
+choco install dotnetcore-2.1-sdk -y
+choco install dotnetcore-2.2-sdk -y
+choco install dotnetcore-3.0-sdk -y
+choco install dotnetcore-3.1-sdk -y
+choco install dotnetcore3-desktop-runtime -y
+choco install dotnetcore-3.1-runtime -y
+choco install dotnet-5.0-runtime -y
+choco install dotnet-5.0-sdk -y
+choco install netfx-4.8 -y
+choco install dotnetfx -y
 
 # install Azure CLI via choco
 choco install azure-cli -y
 az extension add --name azure-cli-iot-ext
 
-# or...  Install via posh
-Install-Module AzSK -AllowClobber -Force
-Install-Module -Name AzSK -Scope CurrentUser -AllowClobber -Force
+# PSQL:
+choco install postgresql12 -y
+
+# Hashi Consul/Vault/Terraform
+choco install consul -y
+choco install choco install vault -y
+choco install terraform -y
+
+# docker/Kubernetes/helm
+choco install docker-desktop -y
+choco install kubernetes-cli -y
+choco install kubernetes-helm -y
+
+# Python
+choco install python -y
+
+# node
+choco install nodejs -y
+
 ```
 
 **On Ubuntu**
