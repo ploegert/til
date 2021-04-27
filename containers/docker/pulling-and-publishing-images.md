@@ -1,6 +1,6 @@
 # Pulling & Publishing Images
 
-```text
+```bash
 $($env:DOCKER_REPO_URL) = "SomeUrl"
 
 # How to grab a public image & push private
