@@ -47,3 +47,8 @@
 
 * [Pulling & Publishing Images](docker/pulling-and-publishing-images.md)
 
+## Ansible
+
+* [Setup Ansible on WSL1](ansible/setup-ansible-on-wsl1.md)
+* [Getting started with Ansible](ansible/getting-started-with-ansible.md)
+
