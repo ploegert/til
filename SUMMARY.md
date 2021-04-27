@@ -2,23 +2,28 @@
 
 * [Home](README.md)
 
-## Terraform
+## Azure
 
-* [Getting Started with Terraform](terraform/getting-started-with-terraform/README.md)
-  * [2: Setup Env Variables](terraform/getting-started-with-terraform/2-setup-env-variables.md)
-  * [3: Generate SSH Key](terraform/getting-started-with-terraform/3-generate-ssh-key.md)
-  * [4: Deployment Agent Setup](terraform/getting-started-with-terraform/deployment-agent-setup.md)
-  * [5: Setting up remote state for Terraform](terraform/getting-started-with-terraform/4-setting-up-remote-state-for-terraform.md)
-  * [6: Setup Terraform Workspace](terraform/getting-started-with-terraform/setup-terraform-workspace.md)
-  * [7: Invoke Terraform](terraform/getting-started-with-terraform/7-invoke-terraform.md)
+* [Networking](azure/networking/README.md)
+  * [Setup VPN Certificates](azure/networking/setup-vpn-certificates.md)
 
-## Kubernetes
+## Containers
 
-* [Loading Credentials](kubernetes/loading-credentials.md)
-* [K8S Cheat Sheet](kubernetes/k8s-cheat-sheet.md)
-* [Get all Images running in cluster](kubernetes/get-all-images-running-in-cluster.md)
-* [Configure Ingress](kubernetes/configure-ingress.md)
-* [Lets Encrypt](kubernetes/lets-encrypt.md)
+* [Docker](containers/docker/README.md)
+  * [Pulling & Publishing Images](containers/docker/pulling-and-publishing-images.md)
+* [Kubernetes](containers/kubernetes-1/README.md)
+  * [K8S Cheat Sheet](containers/kubernetes-1/k8s-cheat-sheet.md)
+  * [Loading Credentials](containers/kubernetes-1/loading-credentials.md)
+  * [Lets Encrypt](containers/kubernetes-1/lets-encrypt.md)
+  * [Configure Ingress](containers/kubernetes-1/configure-ingress.md)
+  * [Get all Images running in cluster](containers/kubernetes-1/get-all-images-running-in-cluster.md)
+
+## Deployment <a id="deploy"></a>
+
+* [Terraform](deploy/getting-started-with-terraform.md)
+* [Ansible](deploy/ansible-1/README.md)
+  * [Getting started with Ansible](deploy/ansible-1/getting-started-with-ansible.md)
+  * [Setup Ansible on WSL1](deploy/ansible-1/setup-ansible-on-wsl1.md)
 
 ## Hashicorp
 
@@ -36,19 +41,6 @@
 
 ## SQL/PGBouncer
 
-* [pgbouncer](sql-pgbouncer/untitled.md)
-
-## Azure
-
-* [Networking](azure/networking.md)
-* [Setup VPN Certificates](azure/setup-vpn-certificates.md)
-
-## Docker
-
-* [Pulling & Publishing Images](docker/pulling-and-publishing-images.md)
-
-## Ansible
-
-* [Setup Ansible on WSL1](ansible/setup-ansible-on-wsl1.md)
-* [Getting started with Ansible](ansible/getting-started-with-ansible.md)
+* [PostgreSQL](sql-pgbouncer/postgresql/README.md)
+  * [pgbouncer](sql-pgbouncer/postgresql/untitled.md)
 
