@@ -45,8 +45,6 @@
   * [Getting started with Ansible](deploy/ansible-1/getting-started-with-ansible.md)
   * [Setup Ansible on WSL1](deploy/ansible-1/setup-ansible-on-wsl1.md)
 
-## Hashicorp
-
 ## SQL/PGBouncer
 
 * [PostgreSQL](sql-pgbouncer/postgresql/README.md)
