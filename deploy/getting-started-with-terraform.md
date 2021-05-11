@@ -2,7 +2,7 @@
 description: This document calls out getting started with Terraform
 ---
 
-# Terraform
+# Hashicorp Terraform
 
 ## 1: Ensure we install all the pre-reqs on your station.
 
