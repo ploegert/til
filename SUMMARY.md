@@ -26,6 +26,7 @@
 
 ## Deployment & Config <a id="deploy"></a>
 
+* [StatsD](deploy/statsd.md)
 * [Hashicorp Terraform](deploy/getting-started-with-terraform.md)
 * [Hashicorp Vault/Consul](deploy/hashicorp-vault-consul/README.md)
   * [Vault](deploy/hashicorp-vault-consul/vault/README.md)
