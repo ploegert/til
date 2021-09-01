@@ -57,8 +57,13 @@
 * [Modules](powershell/modules/README.md)
   * [Pwsh Profile](powershell/modules/pwsh-profile.md)
   * [Logging.psm1](powershell/modules/logging.psm1.md)
+* [Environment Variables](powershell/environment-variables.md)
 
 ## Azure Devops
 
 * [Azure Repos Export](azure-devops/azure-repos-export.md)
+
+---
+
+* [Base64](base64.md)
 
