@@ -58,6 +58,7 @@
   * [Pwsh Profile](powershell/modules/pwsh-profile.md)
   * [Logging.psm1](powershell/modules/logging.psm1.md)
 * [Environment Variables](powershell/environment-variables.md)
+* [Base64](powershell/base64.md)
 
 ## Azure Devops
 
@@ -65,5 +66,5 @@
 
 ---
 
-* [Base64](base64.md)
+* [Inclusiveness](inclusiveness.md)
 
