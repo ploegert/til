@@ -2,17 +2,6 @@
 
 * [Home\(ish\) for Things I've Learned](README.md)
 
-## Azure
-
-* [Azure Cli](azure/azure-cli/README.md)
-  * [Azure Subscriptions](azure/azure-cli/azure-subscriptions.md)
-  * [Azure Roles](azure/azure-cli/azure-roles.md)
-* [Azure Keyvault](azure/azure-keyvault.md)
-* [Azure Storage Ac](azure/azure-storage-ac.md)
-* [Azure Functions](azure/azure-functions.md)
-* [Azure Networking](azure/networking/README.md)
-  * [Setup VPN Certificates](azure/networking/setup-vpn-certificates.md)
-
 ## Containers
 
 * [Docker](containers/docker/README.md)
@@ -26,6 +15,14 @@
 
 ## Deployment & Config <a id="deploy"></a>
 
+* [Azure Cli](deploy/azure-cli/README.md)
+  * [Azure Keyvault](deploy/azure-cli/azure-keyvault.md)
+  * [Azure Functions](deploy/azure-cli/azure-functions.md)
+  * [Azure Networking](deploy/azure-cli/networking/README.md)
+    * [Setup VPN Certificates](deploy/azure-cli/networking/setup-vpn-certificates.md)
+  * [Azure Subscriptions](deploy/azure-cli/azure-subscriptions.md)
+  * [Azure Roles](deploy/azure-cli/azure-roles/README.md)
+    * [Azure Storage Ac](deploy/azure-cli/azure-roles/azure-storage-ac.md)
 * [StatsD](deploy/statsd.md)
 * [Hashicorp Terraform](deploy/getting-started-with-terraform.md)
 * [Hashicorp Vault/Consul](deploy/hashicorp-vault-consul/README.md)
@@ -45,6 +42,8 @@
 * [Ansible](deploy/ansible-1/README.md)
   * [Getting started with Ansible](deploy/ansible-1/getting-started-with-ansible.md)
   * [Setup Ansible on WSL1](deploy/ansible-1/setup-ansible-on-wsl1.md)
+* [Github](deploy/github.md)
+* [Azure Repos Export](deploy/azure-repos-export.md)
 
 ## SQL/PGBouncer
 
@@ -59,10 +58,6 @@
   * [Logging.psm1](powershell/modules/logging.psm1.md)
 * [Environment Variables](powershell/environment-variables.md)
 * [Base64](powershell/base64.md)
-
-## Azure Devops
-
-* [Azure Repos Export](azure-devops/azure-repos-export.md)
 
 ---
 
