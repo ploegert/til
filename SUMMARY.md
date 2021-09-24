@@ -2,6 +2,15 @@
 
 * [Home\(ish\) for Things I've Learned](README.md)
 
+## Agile Development
+
+* [Inclusiveness](agile-development/inclusiveness.md)
+
+## Architecture
+
+* [Architectural-"ilities"](architecture/architectural-ilities.md)
+* [Architectual Considerations](architecture/architectual-considerations.md)
+
 ## Containers
 
 * [Docker](containers/docker/README.md)
@@ -15,7 +24,11 @@
 
 ## Deployment & Config <a id="deploy"></a>
 
+* [Ansible](deploy/ansible-1/README.md)
+  * [Getting started with Ansible](deploy/ansible-1/getting-started-with-ansible.md)
+  * [Setup Ansible on WSL1](deploy/ansible-1/setup-ansible-on-wsl1.md)
 * [Azure Cli](deploy/azure-cli/README.md)
+  * [Azure Repos Export](deploy/azure-cli/azure-repos-export.md)
   * [Azure Keyvault](deploy/azure-cli/azure-keyvault.md)
   * [Azure Functions](deploy/azure-cli/azure-functions.md)
   * [Azure Networking](deploy/azure-cli/networking/README.md)
@@ -23,7 +36,7 @@
   * [Azure Subscriptions](deploy/azure-cli/azure-subscriptions.md)
   * [Azure Roles](deploy/azure-cli/azure-roles/README.md)
     * [Azure Storage Ac](deploy/azure-cli/azure-roles/azure-storage-ac.md)
-* [StatsD](deploy/statsd.md)
+* [Github](deploy/github.md)
 * [Hashicorp Terraform](deploy/getting-started-with-terraform.md)
 * [Hashicorp Vault/Consul](deploy/hashicorp-vault-consul/README.md)
   * [Vault](deploy/hashicorp-vault-consul/vault/README.md)
@@ -39,11 +52,7 @@
     * [Setup Consul](deploy/hashicorp-vault-consul/install-vault-consul/setup-consul.md)
     * [Setup Vault](deploy/hashicorp-vault-consul/install-vault-consul/setup-vault.md)
   * [Intro to Hashi](deploy/hashicorp-vault-consul/intro-to-hashi.md)
-* [Ansible](deploy/ansible-1/README.md)
-  * [Getting started with Ansible](deploy/ansible-1/getting-started-with-ansible.md)
-  * [Setup Ansible on WSL1](deploy/ansible-1/setup-ansible-on-wsl1.md)
-* [Github](deploy/github.md)
-* [Azure Repos Export](deploy/azure-repos-export.md)
+* [StatsD](deploy/statsd.md)
 
 ## SQL/PGBouncer
 
@@ -58,8 +67,4 @@
   * [Logging.psm1](powershell/modules/logging.psm1.md)
 * [Environment Variables](powershell/environment-variables.md)
 * [Base64](powershell/base64.md)
-
----
-
-* [Inclusiveness](inclusiveness.md)
 
