@@ -5,6 +5,7 @@
 ## Agile Development
 
 * [Definition of Done \(DOD\)](agile-development/definition-of-done-dod.md)
+* [Roles](agile-development/roles.md)
 * [Inclusiveness](agile-development/inclusiveness.md)
 
 ## Architecture
