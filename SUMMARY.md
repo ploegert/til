@@ -54,19 +54,19 @@
     * [Setup Consul](deploy/hashicorp-vault-consul/install-vault-consul/setup-consul.md)
     * [Setup Vault](deploy/hashicorp-vault-consul/install-vault-consul/setup-vault.md)
   * [Intro to Hashi](deploy/hashicorp-vault-consul/intro-to-hashi.md)
+* [Powershell](deploy/powershell/README.md)
+  * [Base64](deploy/powershell/base64.md)
+  * [Environment Variables](deploy/powershell/environment-variables.md)
+  * [Modules](deploy/powershell/modules/README.md)
+    * [Pwsh Profile](deploy/powershell/modules/pwsh-profile.md)
+    * [Logging.psm1](deploy/powershell/modules/logging.psm1.md)
 * [StatsD](deploy/statsd.md)
+* [WSL](deploy/wsl/README.md)
+  * [Install Jupyter in WSL](deploy/wsl/install-jupyter-in-wsl.md)
 
 ## SQL/PGBouncer
 
 * [PostgreSQL](sql-pgbouncer/postgresql/README.md)
   * [Backup Databse](sql-pgbouncer/postgresql/backup-databse.md)
   * [pgbouncer](sql-pgbouncer/postgresql/untitled.md)
-
-## Powershell
-
-* [Modules](powershell/modules/README.md)
-  * [Pwsh Profile](powershell/modules/pwsh-profile.md)
-  * [Logging.psm1](powershell/modules/logging.psm1.md)
-* [Environment Variables](powershell/environment-variables.md)
-* [Base64](powershell/base64.md)
 
