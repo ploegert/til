@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Home\(ish\) for Things I've Learned](README.md)
+* [Home(ish) for Things I've Learned](README.md)
 
 ## Agile Development
 
-* [Definition of Done \(DOD\)](agile-development/definition-of-done-dod.md)
+* [Definition of Done (DOD)](agile-development/definition-of-done-dod.md)
 * [Roles](agile-development/roles.md)
 * [Inclusiveness](agile-development/inclusiveness.md)
 
@@ -24,7 +24,7 @@
   * [Configure Ingress](containers/kubernetes-1/configure-ingress.md)
   * [Get all Images running in cluster](containers/kubernetes-1/get-all-images-running-in-cluster.md)
 
-## Deployment & Config <a id="deploy"></a>
+## Deployment & Config <a href="deploy" id="deploy"></a>
 
 * [Ansible](deploy/ansible-1/README.md)
   * [Getting started with Ansible](deploy/ansible-1/getting-started-with-ansible.md)
@@ -60,6 +60,7 @@
   * [Modules](deploy/powershell/modules/README.md)
     * [Pwsh Profile](deploy/powershell/modules/pwsh-profile.md)
     * [Logging.psm1](deploy/powershell/modules/logging.psm1.md)
+  * [Setup console with posh-git](deploy/powershell/setup-console-with-posh-git.md)
 * [StatsD](deploy/statsd.md)
 * [WSL](deploy/wsl/README.md)
   * [Install Jupyter in WSL](deploy/wsl/install-jupyter-in-wsl.md)
@@ -69,4 +70,3 @@
 * [PostgreSQL](sql-pgbouncer/postgresql/README.md)
   * [Backup Databse](sql-pgbouncer/postgresql/backup-databse.md)
   * [pgbouncer](sql-pgbouncer/postgresql/untitled.md)
-
