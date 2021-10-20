@@ -23,7 +23,7 @@ Make sure you install terraform from here: [https://www.terraform.io/downloads.h
 
 **On Windows**
 
-I like [chococately](https://chocolatey.org/), so you can install using:
+I like [chococately](https://chocolatey.org), so you can install using:
 
 ```csharp
 # install choco
@@ -160,7 +160,7 @@ In order to use terraform in a secure way, the spn id/secrets should not be stor
 
 **Windows**
 
-```text
+```
 $env:ARM_CLIENT_ID  = "SOME_ID"
 $env:ARM_CLIENT_SECRET    = "SOME_PASSWORD"
 $env:ARM_SUBSCRIPTION_ID  = "SOME_SUBSCRIPTION"
@@ -178,7 +178,7 @@ export ARM_TENANT_ID="SOME_AAD_CLIENT"
 
 #### Install openssl
 
-```text
+```
 choco install openssl -y
 ```
 
@@ -188,7 +188,7 @@ In order to use terraform in a secure way, the spn id/secrets should not be stor
 
 #### Windows
 
-```text
+```
   $env:ARM_CLIENT_ID = "SOME_ID"
   $env:ARM_CLIENT_SECRET = "SOME_PASSWORD"
   $env:ARM_SUBSCRIPTION_ID  = "SOME_SUBSCRIPTION"
@@ -204,9 +204,9 @@ In order to use terraform in a secure way, the spn id/secrets should not be stor
   export ARM_TENANT_ID="SOME_AAD_TENANT""
 ```
 
-## 3: Generate a ssh key to be used for securing the deployment: <a id="3-generate-a-ssh-key-to-be-used-for-securing-the-deployment"></a>
+## 3: Generate a ssh key to be used for securing the deployment: <a href="3-generate-a-ssh-key-to-be-used-for-securing-the-deployment" id="3-generate-a-ssh-key-to-be-used-for-securing-the-deployment"></a>
 
-```text
+```
 # If windows:
 Set-location ~ 
 mkdir ~/.ssh
@@ -251,7 +251,7 @@ $pub_key = get-content ~/.ssh/id_rsa.pub
 
 > Note: This only needs to be done once, adn then update vnet\_gw\_vpn\_cert\_name & vnet\_gw\_vpn\_cert\_data in the /terraform/base-env-setup/main.tf
 
-```text
+```
 $path = "./certs/appdz1-root-public.cer"$file = [System.Text.Encoding]::UTF8.GetBytes((get-content ($path)))$certText = [Convert]::ToBase64String($file)
 ```
 
@@ -261,7 +261,7 @@ Your terraform workspace is important, as it tells the terraform which variables
 
 > Reference: [Terraform Workspaces](https://www.terraform.io/docs/state/workspaces.html)
 
-```text
+```
 # Initialize your new workspace
 terraform workspace new delta
 
@@ -272,14 +272,14 @@ terraform workspace new delta
     for this configuration.
 ```
 
-Once you have done this, you'll want to ensure that you update the [terraform/base-env-setup/main.tf](./terraform/base-env-setup/main.tf) to include new environment variables. The idea is we'll have a few "placeholders" for transient environments such as:
+Once you have done this, you'll want to ensure that you update the [terraform/base-env-setup/main.tf](https://app.gitbook.com/s/-MYLrtG\_g25xt3AUhomb/deploy/terraform/base-env-setup/main.tf) to include new environment variables. The idea is we'll have a few "placeholders" for transient environments such as:
 
 * Dev
 * Alpha
 * Bravo
 * Charlie
 
-If you wanted to add say "Delta", you'd go to the[ terraform/base-env-setup/main.tf](./terraform/base-env-setup/main.tf) file and add a new section after Charlie -- ensuring you add whatever customization you need for variables to make your new env unique to you.
+If you wanted to add say "Delta", you'd go to the[ terraform/base-env-setup/main.tf](https://app.gitbook.com/s/-MYLrtG\_g25xt3AUhomb/deploy/terraform/base-env-setup/main.tf) file and add a new section after Charlie -- ensuring you add whatever customization you need for variables to make your new env unique to you.
 
 ```javascript
 // Note Truncated for brevity
@@ -318,7 +318,7 @@ If you wanted to add say "Delta", you'd go to the[ terraform/base-env-setup/main
 
 To ensure you connect to the right state store in the blob, make sure you are configured to the proper env
 
-```text
+```
 # to see what workspaces exist on your station:
 terraform workspace list
 
@@ -331,11 +331,11 @@ terraform workspace select dev
 
 ## 5: Setting up Remote State for Terrafrom
 
-In order to save state to a remote storage location \(azure blob\), we'll need to setup a storage account and some containers. You'll do that by executing the terraform script under /terraform/1-tf-remotestate.
+In order to save state to a remote storage location (azure blob), we'll need to setup a storage account and some containers. You'll do that by executing the terraform script under /terraform/1-tf-remotestate.
 
 NOTE: If this has already been executed, you don't need to re-run this 1-tf-remotestate. This exists for the new appdz1 env!
 
-```text
+```
 # Put yourself in the root of the terraform folder (not the module level - the root l evel)
 set-location "./terraform/1-tf-remotestate"
 
@@ -350,7 +350,7 @@ Success! The configuration is valid.
 
 ## 6: Run the initial Terraform deploy of shared stuffs:
 
-```text
+```
   $basepath = "c:/vso"
   set-location $basepath/app.Deploy/terraform/base-env-setup
 
@@ -371,12 +371,12 @@ By now, we should have the following deployed:
   * Vnet & subnets
   * AKS Cluster
   * App Gateway & PIP
-  * Traffic Manager \(For DNS name\)
+  * Traffic Manager (For DNS name)
   * Log Analytics
 
 Another Example output:
 
-```text
+```
 set-location "./terraform/1-tf-remotestate"
 
 # see what would happen without actually deploying
@@ -472,7 +472,7 @@ Now we will need to manually add the firewall rules to allow the aks cluster to 
 
 Now that we have configured the access firewalls, we can configure run the schema scripts.
 
-```text
+```
 set-location $basepath/terraform/product.db
 
   # Verify that you'vev downloaded all the terraform provider
@@ -491,7 +491,7 @@ in order to connect to the cluster, you'll need to credentials of what you just 
 
 > Note: Executing this command is using the environment variables we loaded under step 2 as the user ak cli is running under
 
-```text
+```
 $rg = "rg"
 $aks = "core-aks"
 az aks get-credentials --resource-group $rg --name $aks 
@@ -507,7 +507,7 @@ az aks get-credentials --resource-group $rg --name $aks
 
 ## 9: Generate Secrets used for ingress
 
-```text
+```
 # Generate new self signed cert to use for TLS within the cluster
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout "./certs/ingress.key" -out "./certs/ingress.pem" -subj "/CN=ingresstls/O=org"
 
@@ -537,7 +537,7 @@ kubectl create secret docker-registry $ACR_SHORTNAME `
 
 ## 10: Deploy the API
 
-```text
+```
 $ns = "SOME_NS"
 
 # Set the default namespace:
@@ -570,7 +570,7 @@ kubectl apply -f ..\..\helm\api.yaml --namespace SOME_NS
 
 The output of the shared terraform script should include the ip address of the pip of the vm.
 
-```text
+```
 $pip_ipaddress = "SOME_IP"
 ssh azureuser@$pip_ipaddress
 
@@ -631,8 +631,8 @@ $b = kubectl exec -ti vault-0 -- vault operator init -format "json"
 For this step, you'll need:
 
 * The Following settings:
-  * The IP Address of the Vault \(\)
-  * The Secret of the Vault \(\)
+  * The IP Address of the Vault ()
+  * The Secret of the Vault ()
   * The json blob of settings
 
 An example json file might look like this:
@@ -654,4 +654,3 @@ An example json file might look like this:
 ```
 
 Execute the following commands to upload the settings from a given app
-

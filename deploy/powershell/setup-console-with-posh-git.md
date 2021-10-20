@@ -16,7 +16,9 @@ Import-Module oh-my-posh
 Set-PoshPrompt -Theme paradox
 ```
 
+If you have issues and see blocks in the terminal, you may need to make sure what fonts are loaded and possibly edit your vs code settings:
 
+![](<../../.gitbook/assets/image (19).png>)
 
 References:
 

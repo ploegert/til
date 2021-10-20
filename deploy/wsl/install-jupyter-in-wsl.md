@@ -20,11 +20,11 @@ You can run Jupyter Notebook in your WSL. Here WSL will act as a jupyter server 
 
 1. Install Jupyter by typing the following command in your Bash Shell.
 
-```text
+```
 pip3 install jupyter
 ```
 
-2. Create alias to launch jupyter without browser from the WSL:
+2\. Create alias to launch jupyter without browser from the WSL:
 
 * Open your bash configuration and add the following line
 
@@ -32,30 +32,28 @@ pip3 install jupyter
 vi ~/.bashrc
 ```
 
-* add the following line "~/.bashrc", saving the fil
+* add the following line "\~/.bashrc", saving the fil
 
 ```bash
 #Add the following line after the case statement
 alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"
 ```
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](<../../.gitbook/assets/image (18).png>)
 
 * After that you have to source your file by updating your Bash profile by entering:
 
-```text
+```
 source ~/.bashrc
 ```
 
 Now whenever you will type Jupyter Notebook in your bash you will be directed to the local host. so type:
 
-```text
+```
 jupyter notebook
 ```
 
 
 
-**Reference/Orig Source Credit goes to**: [https://medium.com/@sayanghosh\_49221/jupyter-notebook-in-windows-subsystem-for-linux-wsl-f075f7ec8691](https://medium.com/@sayanghosh_49221/jupyter-notebook-in-windows-subsystem-for-linux-wsl-f075f7ec8691)
-
-
+**Reference/Orig Source Credit goes to**: [https://medium.com/@sayanghosh\_49221/jupyter-notebook-in-windows-subsystem-for-linux-wsl-f075f7ec8691](https://medium.com/@sayanghosh\_49221/jupyter-notebook-in-windows-subsystem-for-linux-wsl-f075f7ec8691)
 
