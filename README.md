@@ -8,3 +8,4 @@ If you want to get in touch, you can find my info here: [https://about.me/justin
 
 ![](.gitbook/assets/IMG\_5222.JPG)
 
+Note: A great subset of this TIL also was sourced from: https://github.com/jbranchaud/til. Credit where credit due!
