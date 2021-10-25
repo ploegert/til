@@ -1,0 +1,2 @@
+# Turning Off Search Highlighting
+

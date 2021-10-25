@@ -29,7 +29,7 @@
 * [Ansible](deploy/ansible-1/README.md)
   * [Getting started with Ansible](deploy/ansible-1/getting-started-with-ansible.md)
   * [Setup Ansible on WSL1](deploy/ansible-1/setup-ansible-on-wsl1.md)
-  * [aliasing-an-ansible-host](ansible\aliasing-an-ansible-host.md)
+  * [aliasing-an-ansible-host](deploy/ansible-1/aliasing-an-ansible-host.md)
 * [Azure Cli](deploy/azure-cli/README.md)
   * [Azure Repos Export](deploy/azure-cli/azure-repos-export.md)
   * [Azure Keyvault](deploy/azure-cli/azure-keyvault.md)
@@ -65,9 +65,10 @@
 * [StatsD](deploy/statsd.md)
 * [WSL](deploy/wsl/README.md)
   * [Install Jupyter in WSL](deploy/wsl/install-jupyter-in-wsl.md)
+* [Linux](deploy/linux/README.md)
+  * [Setup Azure VM Ubuntu Server to be Desktop](deploy/linux/setup-azure-vm-ubuntu-server-to-be-desktop.md)
 
-
-### TypeScript
+## TypeScript
 
 * [Add Types To An Object Destructuring](typescript/add-types-to-an-object-destructuring.md)
 * [Compiler Checks For Unused Params And Variables](typescript/compiler-checks-for-unused-params-and-variables.md)
@@ -76,7 +77,7 @@
 * [Use An Array Check For Type Narrowing](typescript/use-an-array-check-for-type-narrowing.md)
 * [Zero-Config Environments For Trying Out Types](typescript/zero-config-environments-for-trying-out-types.md)
 
-### Unix
+## Unix
 
 * [All The Environment Variables](unix/all-the-environment-variables.md)
 * [Cat A File With Line Numbers](unix/cat-a-file-with-line-numbers.md)
@@ -172,25 +173,29 @@
 * [Watch This Run Repeatedly](unix/watch-this-run-repeatedly.md)
 * [Where Are The Binaries?](unix/where-are-the-binaries.md)
 
-### Vercel
+## Vercel
 
 * [Add Web Server Layer Redirects](vercel/add-web-server-layer-redirects.md)
 * [Deploy An App Without Pushing An Empty Commit](vercel/deploy-an-app-without-pushing-an-empty-commit.md)
 * [Naming Of The Vercel Config File](vercel/naming-of-the-vercel-config-file.md)
 * [Share Development Environment Variables Via CLI](vercel/share-development-environment-variables-via-cli.md)
 
-### Vim
+## Vim
 
-* [Aborting Git Commits And Rebases](vim/aborting-git-commits-and-rebases.md)
-* [Absolute And Relative Line Numbers](vim/absolute-and-relative-line-numbers.md)
-* [Add A File Without Loading It](vim/add-a-file-without-loading-it.md)
-* [Add Custom Dictionary Words](vim/add-custom-dictionary-words.md)
-* [All The Ways To Write And Quit In Vim](vim/all-the-ways-to-write-and-quit-in-vim.md)
-* [Allow Neovim To Copy/Paste With System Clipboard](vim/allow-neovim-to-copy-paste-with-system-clipboard.md)
-* [Almost The End Of The Line](vim/almost-the-end-of-the-line.md)
-* [Alternate Files With vim-rails](vim/alternate-files-with-vim-rails.md)
-* [Always Keep The Gutter Open](vim/always-keep-the-gutter-open.md)
-* [Amend Commits With Fugitive](vim/amend-commits-with-fugitive.md)
+* [VIM](vim/vim/README.md)
+  * [Wrap With Some Room](vim/vim/wrap-with-some-room.md)
+  * [Whole Line Auto-Completion](vim/vim/whole-line-auto-completion.md)
+  * [What Is On The Runtime Path?](vim/vim/what-is-on-the-runtime-path.md)
+  * [Aborting Git Commits And Rebases](vim/vim/aborting-git-commits-and-rebases.md)
+  * [Absolute And Relative Line Numbers](vim/vim/absolute-and-relative-line-numbers.md)
+  * [Add A File Without Loading It](vim/vim/add-a-file-without-loading-it.md)
+  * [Add Custom Dictionary Words](vim/vim/add-custom-dictionary-words.md)
+  * [All The Ways To Write And Quit In Vim](vim/vim/all-the-ways-to-write-and-quit-in-vim.md)
+  * [Allow Neovim To Copy/Paste With System Clipboard](vim/vim/allow-neovim-to-copy-paste-with-system-clipboard.md)
+  * [Almost The End Of The Line](vim/vim/almost-the-end-of-the-line.md)
+  * [Amend Commits With Fugitive](vim/vim/amend-commits-with-fugitive.md)
+  * [Always Keep The Gutter Open](vim/vim/always-keep-the-gutter-open.md)
+  * [Alternate Files With vim-rails](vim/vim/alternate-files-with-vim-rails.md)
 * [Backspace Options](vim/backspace-options.md)
 * [Beginning And End Of Previous Change](vim/beginning-and-end-of-previous-change.md)
 * [The Black Hole Register](vim/the-black-hole-register.md)
@@ -330,65 +335,54 @@
 * [View Commit History of a File](vim/view-commit-history-of-a-file.md)
 * [Viewing Man Pages with man.vim](vim/viewing-man-pages-with-man-vim.md)
 * [Vim Without The Extras](vim/vim-without-the-extras.md)
-* [What Is On The Runtime Path?](vim/what-is-on-the-runtime-path.md)
-* [Whole Line Auto-Completion](vim/whole-line-auto-completion.md)
-* [Wrap With Some Room](vim/wrap-with-some-room.md)
-
-### VSCode
-
-* [Add The VSCode CLI To Your Path](vscode/add-the-vscode-cli-to-your-path.md)
-* [Advance Through Search Results](vscode/advance-through-search-results.md)
-* [Enable Breadcrumbs For Version 1.26 Release](vscode/enable-breadcrumbs-for-version-126-release.md)
-* [Open An Integrated Terminal Window](vscode/open-an-integrated-terminal-window.md)
-* [Toggle Between Terminals](vscode/toggle-between-terminals.md)
-
-### Webpack
-
-* [Better Module Imports With Aliases](webpack/better-module-imports-with-aliases.md)
-* [Debugging With Full Source Maps](webpack/debugging-with-full-source-maps.md)
-* [Run ESLint As A Preloader](webpack/run-eslint-as-a-preloader.md)
-* [Specify Port Of CRA's Webpack Dev Server](webpack/specify-port-of-cra-webpack-dev-server.md)
-* [Use A Specific Config File](webpack/use-a-specific-config-file.md)
-
-### Workflow
-
-* [Change Window Name In iTerm](workflow/change-window-name-in-iterm.md)
-* [Convert An ePub Document To PDF On Mac](workflow/convert-an-epub-document-to-pdf-on-mac.md)
-* [Create A Public URL For A Local Server](workflow/create-a-public-url-for-a-local-server.md)
-* [Enable Dev Tools For Safari](workflow/enable-dev-tools-for-safari.md)
-* [Forward Stripe Events To Local Server](workflow/forward-stripe-events-to-local-server.md)
-* [Get Your Public IP Address](workflow/get-your-public-ip-address.md)
-* [Import A Github Project Into CodeSandbox](workflow/import-a-github-project-into-codesandbox.md)
-* [Interactively Kill A Process With fkill](workflow/interactively-kill-a-process-with-fkill.md)
-* [Open Slack's Keyboard Shortcuts Reference Panel](workflow/open-slacks-keyboard-shortcuts-reference-panel.md)
-* [Prune The Excess From node_modules](workflow/prune-the-excess-from-node-modules.md)
-* [Rotate An Image To Be Oriented Upright](workflow/rotate-an-image-to-be-oriented-upright.md)
-* [Set Recurring Reminders In Slack](workflow/set-recurring-reminders-in-slack.md)
-* [Toggle Between Stories In Storybook](workflow/toggle-between-stories-in-storybook.md)
-* [Update asdf Plugins With Latest Package Versions](workflow/update-asdf-plugins-with-latest-package-versions.md)
-* [View The PR For The Current GitHub Branch](workflow/view-the-pr-for-the-current-github-branch.md)
-
-### XState
-
-* [Always Use Inline Functions With Assign](xstate/always-use-inline-functions-with-assign.md)
-* [Custom Jest Matcher For XState Machine States](xstate/custom-jest-matcher-for-xstate-machine-states.md)
-* [Define Event That Does Internal Self Transition](xstate/define-event-that-does-internal-self-transition.md)
-* [Events Stop Propagating Once Handled](xstate/events-stop-propagating-once-handled.md)
-* [Inline Actions vs Actions In Machine Options](xstate/inline-actions-vs-actions-in-machine-options.md)
-* [Make Immediate And Delayed Transitions](xstate/make-immediate-and-delayed-transitions.md)
-* [Simple States And Composite States](xstate/simple-states-and-composite-states.md)
-* [Start A Machine In A Specific State](xstate/start-a-machine-in-a-specific-state.md)
-* [Use An XState Machine With React](xstate/use-an-xstate-machine-with-react.md)
-
-### YAML
-
-* [Create Multi-Line Strings Without The Line Breaks](yaml/create-multi-line-strings-without-the-line-breaks.md)
-* [YAML Is A Superset Of JSON](yaml/yaml-is-a-superset-of-json.md)
-
-
 
 ## SQL/PGBouncer
 
 * [PostgreSQL](sql-pgbouncer/postgresql/README.md)
   * [Backup Databse](sql-pgbouncer/postgresql/backup-databse.md)
   * [pgbouncer](sql-pgbouncer/postgresql/untitled.md)
+
+## Group 1
+
+* [vscode](group-1/vscode/README.md)
+  * [Add The VSCode CLI To Your Path](group-1/vscode/add-the-vscode-cli-to-your-path.md)
+  * [Advance Through Search Results](group-1/vscode/advance-through-search-results.md)
+  * [Enable Breadcrumbs For Version 1.26 Release](group-1/vscode/enable-breadcrumbs-for-version-126-release.md)
+  * [Open An Integrated Terminal Window](group-1/vscode/open-an-integrated-terminal-window.md)
+  * [Toggle Between Terminals](group-1/vscode/toggle-between-terminals.md)
+* [webpack](group-1/webpack/README.md)
+  * [Use A Specific Config File](group-1/webpack/use-a-specific-config-file.md)
+  * [Better Module Imports With Aliases](group-1/webpack/better-module-imports-with-aliases.md)
+  * [Debugging With Full Source Maps](group-1/webpack/debugging-with-full-source-maps.md)
+  * [Run ESLint As A Preloader](group-1/webpack/run-eslint-as-a-preloader.md)
+  * [Specify Port Of CRA's Webpack Dev Server](group-1/webpack/specify-port-of-cras-webpack-dev-server.md)
+* [WorkFlow](group-1/workflow/README.md)
+  * [View The PR For The Current GitHub Branch](group-1/workflow/view-the-pr-for-the-current-github-branch/README.md)
+    * [Interactively Kill A Process With fkill](group-1/workflow/view-the-pr-for-the-current-github-branch/interactively-kill-a-process-with-fkill.md)
+    * [Import A Github Project Into CodeSandbox](group-1/workflow/view-the-pr-for-the-current-github-branch/import-a-github-project-into-codesandbox.md)
+  * [Update asdf Plugins With Latest Package Versions](group-1/workflow/update-asdf-plugins-with-latest-package-versions.md)
+  * [Toggle Between Stories In Storybook](group-1/workflow/toggle-between-stories-in-storybook.md)
+  * [Set Recurring Reminders In Slack](group-1/workflow/set-recurring-reminders-in-slack.md)
+  * [Rotate An Image To Be Oriented Upright](group-1/workflow/rotate-an-image-to-be-oriented-upright.md)
+  * [Prune The Excess From node\_modules](group-1/workflow/prune-the-excess-from-node-modules.md)
+  * [Open Slack's Keyboard Shortcuts Reference Panel](group-1/workflow/open-slacks-keyboard-shortcuts-reference-panel.md)
+  * [Get Your Public IP Address](group-1/workflow/get-your-public-ip-address.md)
+  * [Forward Stripe Events To Local Server](group-1/workflow/forward-stripe-events-to-local-server.md)
+  * [Enable Dev Tools For Safari](group-1/workflow/enable-dev-tools-for-safari.md)
+  * [Create A Public URL For A Local Server](group-1/workflow/create-a-public-url-for-a-local-server.md)
+  * [Convert An ePub Document To PDF On Mac](group-1/workflow/convert-an-epub-document-to-pdf-on-mac.md)
+  * [Change Window Name In iTerm](group-1/workflow/change-window-name-in-iterm.md)
+* [Programmy](group-1/programmy.md)
+* [YAML](group-1/yaml/README.md)
+  * [Create Multi-Line Strings Without The Line Breaks](group-1/yaml/create-multi-line-strings-without-the-line-breaks.md)
+  * [YAML Is A Superset Of JSON](group-1/yaml/yaml-is-a-superset-of-json.md)
+* [XSTATE](group-1/xstate/README.md)
+  * [Use An XState Machine With React](group-1/xstate/use-an-xstate-machine-with-react.md)
+  * [Start A Machine In A Specific State](group-1/xstate/start-a-machine-in-a-specific-state.md)
+  * [Simple States And Composite States](group-1/xstate/simple-states-and-composite-states.md)
+  * [Make Immediate And Delayed Transitions](group-1/xstate/make-immediate-and-delayed-transitions.md)
+  * [Inline Actions vs Actions In Machine Options](group-1/xstate/inline-actions-vs-actions-in-machine-options.md)
+  * [Events Stop Propagating Once Handled](group-1/xstate/events-stop-propagating-once-handled.md)
+  * [Define Event That Does Internal Self Transition](group-1/xstate/define-event-that-does-internal-self-transition.md)
+  * [Custom Jest Matcher For XState Machine States](group-1/xstate/custom-jest-matcher-for-xstate-machine-states.md)
+  * [Always Use Inline Functions With Assign](group-1/xstate/always-use-inline-functions-with-assign.md)
