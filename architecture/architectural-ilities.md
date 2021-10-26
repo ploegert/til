@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Architectural-"ilities"
 
 What is an "Ility" you might ask? Well, there are all kinds of ilities in the context of software architecture. Here is a list of some of the most important, and calls out some of the ways to measure them.
