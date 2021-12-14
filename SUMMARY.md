@@ -33,6 +33,7 @@
 
 * [azure](cloud/azure/README.md)
   * [Setup Azure VM Ubuntu Server to be Desktop](cloud/azure/setup-azure-vm-ubuntu-server-to-be-desktop.md)
+  * [Config hyper ubuntu vm for rdp](cloud/azure/config-hyper-ubuntu-vm-for-rdp.md)
   * [Azure Cli](cloud/azure/azure-cli/README.md)
     * [Azure Repos Export](cloud/azure/azure-cli/azure-repos-export.md)
     * [Azure Keyvault](cloud/azure/azure-cli/azure-keyvault.md)
@@ -194,7 +195,7 @@
   * [Show Tables That Match A Pattern](databases/mysql/show-tables-that-match-a-pattern.md)
   * [Show Indexes For A Table](databases/mysql/show-indexes-for-a-table.md)
 
-## Deployment & Config <a href="deploy" id="deploy"></a>
+## Deployment & Config <a href="#deploy" id="deploy"></a>
 
 ## os
 
