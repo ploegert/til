@@ -1,2 +1,0 @@
-# Aliasing An Ansible Host
-
