@@ -11,6 +11,6 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
-This shell statement uses [the `:-` parameter expansion](../../os/unix/provide-a-fallback-value-for-unset-parameter.md) to specify a path using either the `XDG_DATA_HOME` or `$HOME` as a fallback. This ends up resolving to `~/.local/share`, so the `plug.vim` file is placed in `~/.local/share/nvim/site/autload/`.
+This shell statement uses [the `:-` parameter expansion](../../os/unix/variables/provide-a-fallback-value-for-unset-parameter.md) to specify a path using either the `XDG_DATA_HOME` or `$HOME` as a fallback. This ends up resolving to `~/.local/share`, so the `plug.vim` file is placed in `~/.local/share/nvim/site/autload/`.
 
 See `:h runtimepath` for more details.

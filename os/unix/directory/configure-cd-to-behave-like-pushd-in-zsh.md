@@ -1,6 +1,6 @@
 # Configure cd To Behave Like pushd In Zsh
 
-The Zsh environment has a setting that allows you to make the `cd` command behave like the `pushd` command. Normally when you use `cd` the [remembered directory stack](../list-the-stack-of-remembered-directories.md) is not effected. However, if you add the following setting to your `~/.zshrc` file:
+The Zsh environment has a setting that allows you to make the `cd` command behave like the `pushd` command. Normally when you use `cd` the [remembered directory stack](list-the-stack-of-remembered-directories.md) is not effected. However, if you add the following setting to your `~/.zshrc` file:
 
 ```bash
 setopt auto_pushd

@@ -1,3 +1,2 @@
-# linux/unix
+# linux
 
-u
