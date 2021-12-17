@@ -33,7 +33,7 @@
 
 * [azure](cloud/azure/README.md)
   * [Setup Azure VM Ubuntu Server to be Desktop](cloud/azure/setup-azure-vm-ubuntu-server-to-be-desktop.md)
-  * [Config hyper ubuntu vm for rdp](cloud/azure/config-hyper-ubuntu-vm-for-rdp.md)
+  * [Config ubuntu 20.04 vm for rdp](cloud/azure/config-ubuntu-20.04-vm-for-rdp.md)
   * [Azure Cli](cloud/azure/azure-cli/README.md)
     * [Azure Repos Export](cloud/azure/azure-cli/azure-repos-export.md)
     * [Azure Keyvault](cloud/azure/azure-cli/azure-keyvault.md)

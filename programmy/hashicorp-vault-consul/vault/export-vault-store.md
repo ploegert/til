@@ -4,7 +4,7 @@ description: The following will export the vaultkey/values to a file.
 
 # Export Vault Store
 
-**Note: **Depends on GoLang
+**Note:** Depends on GoLang
 
 ```csharp
 [CmdletBinding()] 

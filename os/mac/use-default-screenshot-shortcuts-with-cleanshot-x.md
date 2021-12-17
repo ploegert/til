@@ -1,6 +1,6 @@
 # Use Default Screenshot Shortcuts With CleanShot X
 
-[_Watch the screencast_](https://www.youtube.com/watch?v=yoMWfe1F9h4)_ that accompanies this TIL to see how to do this visually._
+[_Watch the screencast_](https://www.youtube.com/watch?v=yoMWfe1F9h4) _that accompanies this TIL to see how to do this visually._
 
 On macOS there are a set of keyboard shortcuts for taking screenshots. The one that I use most often is `Cmd-Shift-4`. It turns the cursor into cross hairs so that I can make a drag selection of part of the screen to be captured as a screenshot.
 
