@@ -2,45 +2,45 @@
 
 Open up Hyper-V Manager, and create "**New" vm**
 
-****![](<../../.gitbook/assets/image (32).png>)****
+![](<../../.gitbook/assets/image (39).png>)
 
 Select **Next:**
 
-****![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (26).png>)
 
 **Type in a Name and then select Next**
 
-****![](<../../.gitbook/assets/image (35).png>)****
+![](<../../.gitbook/assets/image (46).png>)
 
 Then Select **"Generation 2"**
 
-****![](<../../.gitbook/assets/image (22).png>)****
+![](<../../.gitbook/assets/image (25).png>)
 
 Put in the amount of memory you'd like to use. I use **2048**
 
-****![](<../../.gitbook/assets/image (39).png>)****
+![](<../../.gitbook/assets/image (55).png>)
 
 Configure your networking by selecting **"Default"**
 
-****![](<../../.gitbook/assets/image (25).png>)****
+![](<../../.gitbook/assets/image (28).png>)
 
 Nothing to change here, select **"Next"**
 
-****![](<../../.gitbook/assets/image (24).png>)****
+![](<../../.gitbook/assets/image (27).png>)
 
 Here you will want to select the iso image you'll be using. loaded my iso file from 20.04 LTS from this url: [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
 
-****![](<../../.gitbook/assets/image (36).png>)****
+![](<../../.gitbook/assets/image (47).png>)
 
 Select the image file
 
-****![](<../../.gitbook/assets/image (31).png>)****
+![](<../../.gitbook/assets/image (37).png>)
 
 ****
 
 Then select **finish** from here
 
-****![](<../../.gitbook/assets/image (34).png>)****
+![](<../../.gitbook/assets/image (44).png>)
 
 ****
 
@@ -50,31 +50,89 @@ Now we have created the vm, we'll want to tweak some settings.
 
 Right click on your vm and select "**settings**"
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (23).png>)
 
 Then go and select "**Security**" tab
 
-****![](<../../.gitbook/assets/image (38).png>)****
+![](<../../.gitbook/assets/image (52).png>)
 
 And then select **"Microsoft UEFI Certificate Authority**",&#x20;
 
-****![](<../../.gitbook/assets/image (27).png>)****
+![](<../../.gitbook/assets/image (31).png>)
 
 Then select **"Integration Services"**, and check **"Guest Services"**
 
-****![](<../../.gitbook/assets/image (33).png>)****
+![](<../../.gitbook/assets/image (41).png>)
 
 Then click "**Checkpoints"** section and disable **"Enable Checkpoints"**
 
-****![](<../../.gitbook/assets/image (37).png>)****
+![](<../../.gitbook/assets/image (50).png>)
 
 Then select "**OK"** to close
 
-****![](<../../.gitbook/assets/image (29).png>)****
+![](<../../.gitbook/assets/image (34).png>)
 
 You should now be able to run your image.
 
 ### Launching the VM
+
+Right click on your vm in Hyperv-Manager, and then select "Run"
+
+![](<../../.gitbook/assets/image (36).png>)
+
+Then select "**Install**" in the ubuntu dialog that pops up:
+
+![](<../../.gitbook/assets/image (24).png>)
+
+On Keyboard Layouts, just select the default and select "**continue"**:
+
+![](<../../.gitbook/assets/image (32).png>)
+
+Select Updates by selecting "**Install third-party software for graphics and wifi hardware and additional media formats**", then select "**Configure Secure Boot**" and enter your secure password.
+
+![](<../../.gitbook/assets/image (22).png>)
+
+On Installation type, lets select "**Advanced Features"**
+
+![](<../../.gitbook/assets/image (48).png>)
+
+Check the **"Use LVM with the new Ubuntu installation",** and select **"Encrypt the new Ubuntu installation for security"** and then select **"OK"**
+
+![](<../../.gitbook/assets/image (40).png>)
+
+Then select **"Install Now"**
+
+![](<../../.gitbook/assets/image (19).png>)
+
+Now you'll enter a security key, and select recovery key as shown below
+
+![](<../../.gitbook/assets/image (51).png>)
+
+Now you'll elect to write the changes to disk by selecting continue:
+
+![](<../../.gitbook/assets/image (38).png>)
+
+
+
+Now, you'll select your time zone:
+
+![](<../../.gitbook/assets/image (30).png>)
+
+Now you'll enter the information about the desktop, such as your name, password, and machine name:
+
+
+
+![](<../../.gitbook/assets/image (45).png>)
+
+You should now see it installing & configuring...
+
+![](<../../.gitbook/assets/image (53).png>)
+
+YOu'll now be prompted to restart your machine:
+
+![](<../../.gitbook/assets/image (54).png>)
+
+
 
 ### Running Commands to get the basics setup
 
