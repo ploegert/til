@@ -1,6 +1,6 @@
 # Generate Random UUIDs Without An Extension
 
-In other posts I've covered how to generate v4 random UUIDs in PostgreSQL [using the `uuid-ossp` extension](generate-a-uuid.md) as well as the more up-to-date method of [using the `pgcrypto` extension](generating-uuids-with-pgcrypto.md).
+In other posts I've covered how to generate v4 random UUIDs in PostgreSQL [using the `uuid-ossp` extension](generate-a-uuid.md) as well as the more up-to-date method of [using the `pgcrypto` extension](../crypto/generating-uuids-with-pgcrypto.md).
 
 As of PostgreSQL v13, you no longer need to add an extension for v4 UUID generation. It comes built-in as the `gen_random_uuid()` function.
 
