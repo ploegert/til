@@ -1,6 +1,6 @@
 # Find Duplicate Records In Table Without Unique Id
 
-I recently came across a couple methods for listing out instances of duplicate records in a table where the table doesn't have an explicit unique identifier. Here is [a post](../queries/find-records-that-contain-duplicate-values.md) that explains how to do this when a unique identifier is present.
+I recently came across a couple methods for listing out instances of duplicate records in a table where the table doesn't have an explicit unique identifier. Here is [a post](find-records-that-contain-duplicate-values.md) that explains how to do this when a unique identifier is present.
 
 If the table doesn't have an explicit primary key or other uniquely identifying value, then we'll have to get some help from [PostgreSQL's internal system columns](https://www.postgresql.org/docs/current/ddl-system-columns.html) — namely the `ctid`.
 

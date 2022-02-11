@@ -37,4 +37,4 @@ We can take this a step further by ordering the output in a consistent way—des
 (4 rows)
 ```
 
-This `order by` clauses uses [a positional index from the select arguments](../indexing/use-argument-indexes.md), so the `2` references the `count(*)` argument.
+This `order by` clauses uses [a positional index from the select arguments](use-argument-indexes.md), so the `2` references the `count(*)` argument.

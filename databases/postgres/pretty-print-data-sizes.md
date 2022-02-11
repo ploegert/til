@@ -24,7 +24,7 @@ Use the `pg_size_pretty()` function to pretty print the sizes of data in Postgre
  11 GB
 ```
 
-This function is particularly useful when used with the [`pg_database_size()`](../database-operations/get-the-size-of-a-database.md) and [`pg_relation_size()`](../table-operations/get-the-size-of-a-table.md) functions.
+This function is particularly useful when used with the [`pg_database_size()`](get-the-size-of-a-database.md) and [`pg_relation_size()`](get-the-size-of-a-table.md) functions.
 
 ```sql
 > select pg_size_pretty(pg_database_size('hr_hotels'));

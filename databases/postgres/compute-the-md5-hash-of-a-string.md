@@ -16,4 +16,4 @@ It works like this:
  bbabecfd4031211077473734bae7249f
 ```
 
-There are more hashing algorithms provided by the `pgcrypto` extension. See [Compute Hashes With pgcrypto](../../../../databases/postgres/postgres/compute-hashes-with-pgcrypto.md) for more details on that.
+There are more hashing algorithms provided by the `pgcrypto` extension. See [Compute Hashes With pgcrypto](postgres/compute-hashes-with-pgcrypto.md) for more details on that.

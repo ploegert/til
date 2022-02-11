@@ -11,7 +11,7 @@ If a table is created with a `serial` type column, then a sequence is also creat
  public | accounts_id_seq | sequence | jbranchaud
 ```
 
-In [Renaming A Table](../table-operations/renaming-a-table.md), I showed how a table can be renamed in PostgreSQL. This will not, however, rename associated sequences. To maintain naming consistency, you may want to also rename sequences when renaming tables. This can be done with a query like the following:
+In [Renaming A Table](renaming-a-table.md), I showed how a table can be renamed in PostgreSQL. This will not, however, rename associated sequences. To maintain naming consistency, you may want to also rename sequences when renaming tables. This can be done with a query like the following:
 
 ```sql
 > alter sequence accounts_id_seq rename to users_id_seq;
