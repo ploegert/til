@@ -1,88 +1,69 @@
-# Setup an Ubuntu 20.04 vm
+---
+description: >-
+  This setup calls out how to setup an Ubuntu 20.04 vm in virtual box (6.1.30)
+  around the time frame of early 2022 running on a windows 10 host with Hyper-V
+  configured.
+---
 
-Open up Hyper-V Manager, and create "**New" vm**
+# Virtual Box - Setup an Ubuntu 20.04 vm
 
-![](<../../.gitbook/assets/image (39).png>)
+## Create the initial VM
 
-Select **Next:**
+&#x20;Launch **Oracle VM Virtual Box Manager**, and create "**New" vm**
 
-![](<../../.gitbook/assets/image (26).png>)
+****![](<../../.gitbook/assets/image (20).png>)****
 
-**Type in a Name and then select Next**
+****![](<../../.gitbook/assets/image (22).png>)****
 
-![](<../../.gitbook/assets/image (46).png>)
-
-Then Select **"Generation 2"**
-
-![](<../../.gitbook/assets/image (25).png>)
-
-Put in the amount of memory you'd like to use. I use **2048**
-
-![](<../../.gitbook/assets/image (55).png>)
-
-Configure your networking by selecting **"Default"**
-
-![](<../../.gitbook/assets/image (28).png>)
-
-Nothing to change here, select **"Next"**
-
-![](<../../.gitbook/assets/image (27).png>)
-
-Here you will want to select the iso image you'll be using. loaded my iso file from 20.04 LTS from this url: [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
-
-![](<../../.gitbook/assets/image (47).png>)
-
-Select the image file
-
-![](<../../.gitbook/assets/image (37).png>)
+****![](<../../.gitbook/assets/image (52).png>)****
 
 ****
 
-Then select **finish** from here
+****![](<../../.gitbook/assets/image (23).png>)****
 
-![](<../../.gitbook/assets/image (44).png>)
+****![](<../../.gitbook/assets/image (24).png>)****
 
 ****
 
-### Configure VM Settings
+****
 
-Now we have created the vm, we'll want to tweak some settings.
+****
 
-Right click on your vm and select "**settings**"
+****
 
-![](<../../.gitbook/assets/image (23).png>)
+****
 
-Then go and select "**Security**" tab
+****
 
-![](<../../.gitbook/assets/image (52).png>)
+****![](<../../.gitbook/assets/image (21).png>)****
 
-And then select **"Microsoft UEFI Certificate Authority**",&#x20;
+****
 
-![](<../../.gitbook/assets/image (31).png>)
+****
 
-Then select **"Integration Services"**, and check **"Guest Services"**
+****
 
-![](<../../.gitbook/assets/image (41).png>)
+****
 
-Then click "**Checkpoints"** section and disable **"Enable Checkpoints"**
+****
 
-![](<../../.gitbook/assets/image (50).png>)
+****![](<../../.gitbook/assets/image (43).png>)****
 
-Then select "**OK"** to close
+****
 
-![](<../../.gitbook/assets/image (34).png>)
+**Select Advanced**
 
-You should now be able to run your image.
+****![](<../../.gitbook/assets/image (44).png>)****
+
+****
 
 ### Launching the VM
 
 Right click on your vm in Hyperv-Manager, and then select "Run"
 
-![](<../../.gitbook/assets/image (36).png>)
-
 Then select "**Install**" in the ubuntu dialog that pops up:
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24) (1).png>)
 
 On Keyboard Layouts, just select the default and select "**continue"**:
 
@@ -90,7 +71,7 @@ On Keyboard Layouts, just select the default and select "**continue"**:
 
 Select Updates by selecting "**Install third-party software for graphics and wifi hardware and additional media formats**", then select "**Configure Secure Boot**" and enter your secure password.
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (22) (1).png>)
 
 On Installation type, lets select "**Advanced Features"**
 
