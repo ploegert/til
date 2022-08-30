@@ -2,7 +2,7 @@
 description: This document calls out getting started with Terraform
 ---
 
-# Hashicorp Terraform
+# hashicorp terraform
 
 ## 1: Ensure we install all the pre-reqs on your station.
 
@@ -23,7 +23,7 @@ Make sure you install terraform from here: [https://www.terraform.io/downloads.h
 
 **On Windows**
 
-I like [chococately](https://chocolatey.org), so you can install using:
+I like [chococately](https://chocolatey.org/), so you can install using:
 
 ```csharp
 # install choco
@@ -204,7 +204,7 @@ In order to use terraform in a secure way, the spn id/secrets should not be stor
   export ARM_TENANT_ID="SOME_AAD_TENANT""
 ```
 
-## 3: Generate a ssh key to be used for securing the deployment: <a href="3-generate-a-ssh-key-to-be-used-for-securing-the-deployment" id="3-generate-a-ssh-key-to-be-used-for-securing-the-deployment"></a>
+## 3: Generate a ssh key to be used for securing the deployment: <a href="#3-generate-a-ssh-key-to-be-used-for-securing-the-deployment" id="3-generate-a-ssh-key-to-be-used-for-securing-the-deployment"></a>
 
 ```
 # If windows:

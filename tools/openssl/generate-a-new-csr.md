@@ -1,4 +1,4 @@
-# RSA: generate a new CSR
+# Generate a new CSR
 
 ## Generate A Private Key
 

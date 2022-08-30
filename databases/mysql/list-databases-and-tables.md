@@ -1,6 +1,6 @@
 # List Databases And Tables
 
-If you've started a [mysql](https://dev.mysql.com) session, but haven't connected to a particular database yet, you can list the available databases like so:
+If you've started a [mysql](https://dev.mysql.com/) session, but haven't connected to a particular database yet, you can list the available databases like so:
 
 ```sql
 > show databases;

@@ -11,9 +11,9 @@ description: >-
 
 &#x20;Launch **Oracle VM Virtual Box Manager**, and create "**New" vm**
 
-****![](<../../.gitbook/assets/image (20).png>)****
+****<img src="../../.gitbook/assets/image (20).png" alt="" data-size="original">****
 
-****![](<../../.gitbook/assets/image (22).png>)****
+****<img src="../../.gitbook/assets/image (22).png" alt="" data-size="original">****
 
 ****![](<../../.gitbook/assets/image (52).png>)****
 

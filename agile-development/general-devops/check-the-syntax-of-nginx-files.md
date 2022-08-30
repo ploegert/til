@@ -2,7 +2,7 @@
 
 ## Check The Syntax Of nginx Files
 
-The syntax of [`nginx`](https://www.nginx.com) configuration files can be a bit finicky. On top of that, some `nginx` server commands can fail silently. Get more confidence by using the following command to check for syntax errors in those files:
+The syntax of [`nginx`](https://www.nginx.com/) configuration files can be a bit finicky. On top of that, some `nginx` server commands can fail silently. Get more confidence by using the following command to check for syntax errors in those files:
 
 ```bash
 $ [sudo] nginx -t
