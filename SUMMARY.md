@@ -1054,6 +1054,8 @@
   * [Lets Encrypt](tools/kubernetes-1/lets-encrypt.md)
   * [Configure Ingress](tools/kubernetes-1/configure-ingress.md)
   * [Get all Images running in cluster](tools/kubernetes-1/get-all-images-running-in-cluster.md)
+* [openssl](tools/openssl/README.md)
+  * [RSA: generate a new CSR](tools/openssl/rsa-generate-a-new-csr.md)
 * [rspec](tools/rspec/README.md)
   * [Check Specific Arguments To Received Method](tools/rspec/check-specific-arguments-to-received-method.md)
 * [sed](tools/sed/README.md)
