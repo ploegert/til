@@ -138,6 +138,8 @@
 * [Virtualization](os/virtualization/README.md)
   * [Hyper-V - Setup an Ubuntu 20.04 vm](os/virtualization/hyper-v-setup-an-ubuntu-20.04-vm.md)
   * [Virtual Box - Setup an Ubuntu 20.04 vm](os/virtualization/virtual-box-setup-an-ubuntu-20.04-vm.md)
+  * [Virtual Box - Setup an Ubuntu 22.04 vm](os/virtualization/virtual-box-setup-an-ubuntu-22.04-vm.md)
+* [Page 2](os/page-2.md)
 * [mac](os/mac/README.md)
   * [Access All Screen And Video Capture Options](os/mac/access-all-screen-and-video-capture-options.md)
   * [Access System Information On OS X](os/mac/access-system-information-on-osx.md)
