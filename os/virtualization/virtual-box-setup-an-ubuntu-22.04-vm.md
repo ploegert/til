@@ -11,49 +11,25 @@ description: >-
 
 &#x20;Launch **Oracle VM Virtual Box Manager**, and create "**New" vm**
 
-****<img src="../../.gitbook/assets/image (20).png" alt="" data-size="original">****
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-****<img src="../../.gitbook/assets/image (22).png" alt="" data-size="original">****
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-****![](<../../.gitbook/assets/image (52).png>)****
-
-****
-
-****![](<../../.gitbook/assets/image (23).png>)****
-
-****![](<../../.gitbook/assets/image (24).png>)****
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
-****
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-****
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-****
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-****
-
-****
-
-****![](<../../.gitbook/assets/image (21).png>)****
-
-****
-
-****
-
-****
-
-****
-
-****
-
-****![](<../../.gitbook/assets/image (43).png>)****
-
-****
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 **Select Advanced**
 
-****![](<../../.gitbook/assets/image (44).png>)****
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
@@ -63,21 +39,19 @@ Right click on your vm in Hyperv-Manager, and then select "Run"
 
 Then select "**Install**" in the ubuntu dialog that pops up:
 
-<figure><img src="../../.gitbook/assets/image (61) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 On Keyboard Layouts, just select the default and select "**continue"**:
 
-<figure><img src="../../.gitbook/assets/image (56) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 
 
 <figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
-
-
 On Installation type, lets select "**Advanced Features".**
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67) (1).png" alt=""><figcaption></figcaption></figure>
 
 Check the **"Use LVM with the new Ubuntu installation",** and select **"Encrypt the new Ubuntu installation for security"** and then select **"OK"**
 
@@ -99,7 +73,7 @@ Now you'll enter the information about the desktop, such as your name, password,
 
 You should now see it installing & configuring...
 
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 Y**o**u'll now be prompted to restart your machine:
 
@@ -120,7 +94,7 @@ References:&#x20;
 
 First, Goto **Devices->Insert Guest Additions CD image...**
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
 Then you'll want to run the following
 
@@ -139,7 +113,7 @@ reboot
 shutdown -h now
 ```
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 To verify Successful installation, run the following:
 
@@ -147,7 +121,7 @@ To verify Successful installation, run the following:
 lsmod | grep vboxguest
 ```
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 ### Running Commands to get the basics setup
 
