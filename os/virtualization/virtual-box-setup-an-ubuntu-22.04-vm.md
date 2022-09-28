@@ -63,11 +63,11 @@ Right click on your vm in Hyperv-Manager, and then select "Run"
 
 Then select "**Install**" in the ubuntu dialog that pops up:
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61) (1).png" alt=""><figcaption></figcaption></figure>
 
 On Keyboard Layouts, just select the default and select "**continue"**:
 
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -99,13 +99,55 @@ Now you'll enter the information about the desktop, such as your name, password,
 
 You should now see it installing & configuring...
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 Y**o**u'll now be prompted to restart your machine:
 
 <figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 
+
+###
+
+### Virtual Box Additions
+
+If you're using Virtual Box, you may want to add the Guest Additions. You will want to run the following command first, before mounting.
+
+References:&#x20;
+
+* [https://itsfoss.com/virtualbox-guest-additions-ubuntu/](https://itsfoss.com/virtualbox-guest-additions-ubuntu/)
+* [https://linuxconfig.org/install-virtualbox-guest-additions-on-linux-guest](https://linuxconfig.org/install-virtualbox-guest-additions-on-linux-guest)
+
+First, Goto **Devices->Insert Guest Additions CD image...**
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Then you'll want to run the following
+
+```
+# Install prereqs
+sudo apt update
+sudo apt install build-essential dkms linux-headers-generic 
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+
+# after mounting the tools cd - use your username instead of "justin"
+cd /media/justin
+sudo ./VBoxLinuxAdditions.run
+
+# then, reboot
+reboot
+shutdown -h now
+```
+
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+
+To verify Successful installation, run the following:
+
+```
+lsmod | grep vboxguest
+```
+
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
 ### Running Commands to get the basics setup
 
@@ -133,16 +175,7 @@ sudo apt update
 
 #Reboot again just to be sure
 init 6
-```
 
-### Virtual Box Additions
-
-If you're using Virtual Box, you may want to add the Guest Additions. You will want to run the following command first, before mounting.
-
-Reference here: [https://itsfoss.com/virtualbox-guest-additions-ubuntu/](https://itsfoss.com/virtualbox-guest-additions-ubuntu/)
-
-```
-sudo apt install build-essential dkms linux-headers-generic 
 ```
 
 ### Additional Tools
