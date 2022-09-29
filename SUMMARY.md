@@ -136,6 +136,8 @@
     * [Provide A Fallback Value For Unset Parameter](os/unix/variables/provide-a-fallback-value-for-unset-parameter.md)
     * [Check If The First Argument Is Given](os/unix/variables/check-if-the-first-argument-is-given.md)
 * [Virtualization](os/virtualization/README.md)
+  * [Ubuntu Quick Install](os/virtualization/ubuntu-quick-install.md)
+  * [Transfer files from Windows to Ubuntu VM](os/virtualization/transfer-files-from-windows-to-ubuntu-vm.md)
   * [Hyper-V - Setup an Ubuntu 20.04 vm](os/virtualization/hyper-v-setup-an-ubuntu-20.04-vm.md)
   * [Virtual Box - Setup an Ubuntu 20.04 vm](os/virtualization/virtual-box-setup-an-ubuntu-20.04-vm.md)
   * [Virtual Box - Setup an Ubuntu 22.04 vm](os/virtualization/virtual-box-setup-an-ubuntu-22.04-vm.md)
