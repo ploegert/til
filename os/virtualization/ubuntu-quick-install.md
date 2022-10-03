@@ -11,3 +11,15 @@ sudo apt install code
 sudo apt update
 sudo apt upgrade
 ```
+
+### Install Network Tools (ifconfig)
+
+```bash
+sudo apt install net-tools
+```
+
+### Install SSH
+
+```
+sudo apt-get install openssh-server openssh-client
+```
