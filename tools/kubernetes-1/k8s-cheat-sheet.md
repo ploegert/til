@@ -385,6 +385,7 @@ curl -L http://172.16.192.245
 * [https://learn.hashicorp.com/terraform/kubernetes/provision-aks-cluster](https://learn.hashicorp.com/terraform/kubernetes/provision-aks-cluster)
 * [https://docs.microsoft.com/en-us/azure/developer/terraform/create-k8s-cluster-with-aks-applicationgateway-ingress](https://docs.microsoft.com/en-us/azure/developer/terraform/create-k8s-cluster-with-aks-applicationgateway-ingress)
 * [https://docs.microsoft.com/en-us/azure/aks/ingress-internal-ip](https://docs.microsoft.com/en-us/azure/aks/ingress-internal-ip)
+* [https://spacelift.io/blog/terraform-aks](https://spacelift.io/blog/terraform-aks)
 
 ### Alternative - use App Gateway Ingress Controller \(AGIC\)
 
