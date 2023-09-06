@@ -1,19 +1,10 @@
 # Define Event That Does Internal Self Transition
 
-An XState `state` can contain a state transition in the `on` object that
-represents a [_self
-transition_](https://xstate.js.org/docs/guides/transitions.html#self-transitions).
-A self transition means that the state points to itself. In response to that
-event, it will transition directly to itself, instead of to another state node.
+An XState `state` can contain a state transition in the `on` object that represents a [_self transition_](https://xstate.js.org/docs/guides/transitions.html#self-transitions). A self transition means that the state points to itself. In response to that event, it will transition directly to itself, instead of to another state node.
 
-An
-[_internal_](https://xstate.js.org/docs/guides/transitions.html#internal-transitions)
-self transition is one in which the transition occurs, but it never _exits_ its
-state node. That means `entry` and `exit` actions won't be triggered.
+An [_internal_](https://xstate.js.org/docs/guides/transitions.html#internal-transitions) self transition is one in which the transition occurs, but it never _exits_ its state node. That means `entry` and `exit` actions won't be triggered.
 
-The parent state node can transition directly to itself or to a child node.
-Here are a couple ways to define internal self transitions directly to the
-parent node.
+The parent state node can transition directly to itself or to a child node. Here are a couple ways to define internal self transitions directly to the parent node.
 
 1. Implicit
 
@@ -29,10 +20,9 @@ states: {
 },
 ```
 
-No `target` is declared for `INCREMENT`, so an internal, self-transition is
-implicit.
+No `target` is declared for `INCREMENT`, so an internal, self-transition is implicit.
 
-2. Explicit
+1. Explicit
 
 ```
 states: {
@@ -49,7 +39,7 @@ states: {
 
 This says that the transition should be an `internal` one.
 
-3. Undefined Target
+1. Undefined Target
 
 ```
 states: {

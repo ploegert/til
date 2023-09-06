@@ -36,13 +36,13 @@ Select the image file
 
 ![](<../../.gitbook/assets/image (37).png>)
 
-****
+
 
 Then select **finish** from here
 
 ![](<../../.gitbook/assets/image (44) (1).png>)
 
-****
+
 
 ### Configure VM Settings
 
@@ -196,4 +196,3 @@ sudo apt update
 sudo apt install code # or code-insiders
 ```
 
-****

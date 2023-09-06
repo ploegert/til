@@ -1,8 +1,6 @@
 # Equivalence Classes Of Repetition MetaChars
 
-There are two types of Repetition MetaChars. The simple ones are `*`, `+`, and
-`?`. The general ones are ranges specified inside `{` and `}`. Here are
-equivalence classes between these two sets.
+There are two types of Repetition MetaChars. The simple ones are `*`, `+`, and `?`. The general ones are ranges specified inside `{` and `}`. Here are equivalence classes between these two sets.
 
 _These use the -E (extended regex) option for OSX's `sed`._
 
@@ -18,7 +16,7 @@ $ echo 'abc123' | sed -E 's/[[:alpha:]]{0,}/!/'
 !123
 ```
 
-2. `+` is equivalent to `{1,}`
+1. `+` is equivalent to `{1,}`
 
 _One or more of the preceeding character._
 
@@ -30,7 +28,7 @@ $ echo 'fix   the spacing' | sed -E 's/[ ]{1,}/ /g'
 fix the spacing
 ```
 
-3. `?` is equivalent to `{0,1}`
+1. `?` is equivalent to `{0,1}`
 
 _Exactly zero or one of the preceeding character._
 

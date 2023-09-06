@@ -11,51 +11,51 @@ description: >-
 
 &#x20;Launch **Oracle VM Virtual Box Manager**, and create "**New" vm**
 
-****<img src="../../.gitbook/assets/image (20).png" alt="" data-size="original">****
+<img src="../../.gitbook/assets/image (20).png" alt="" data-size="original">
 
-****<img src="../../.gitbook/assets/image (22).png" alt="" data-size="original">****
+<img src="../../.gitbook/assets/image (22).png" alt="" data-size="original">
 
-****![](<../../.gitbook/assets/image (52).png>)****
+![](<../../.gitbook/assets/image (52).png>)
 
-****
 
-****![](<../../.gitbook/assets/image (23).png>)****
 
-****![](<../../.gitbook/assets/image (24).png>)****
+![](<../../.gitbook/assets/image (23).png>)
 
-****
+![](<../../.gitbook/assets/image (24).png>)
 
-****
 
-****
 
-****
 
-****
 
-****
 
-****![](<../../.gitbook/assets/image (21).png>)****
 
-****
 
-****
 
-****
 
-****
 
-****
 
-****![](<../../.gitbook/assets/image (43).png>)****
 
-****
+![](<../../.gitbook/assets/image (21).png>)
+
+
+
+
+
+
+
+
+
+
+
+![](<../../.gitbook/assets/image (43).png>)
+
+
 
 **Select Advanced**
 
-****![](<../../.gitbook/assets/image (44).png>)****
+![](<../../.gitbook/assets/image (44).png>)
 
-****
+
 
 ### Launching the VM
 
@@ -177,4 +177,3 @@ sudo apt update
 sudo apt install code # or code-insiders
 ```
 
-****

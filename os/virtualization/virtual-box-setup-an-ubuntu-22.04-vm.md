@@ -17,7 +17,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-****
+
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-****
+
 
 ### Launching the VM
 
@@ -176,4 +176,3 @@ sudo apt update
 sudo apt install code # or code-insiders
 ```
 
-****
