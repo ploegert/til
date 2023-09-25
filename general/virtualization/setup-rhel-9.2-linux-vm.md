@@ -1,4 +1,12 @@
-# vmware - Setup a RHEL 9.2 vm
+---
+description: >-
+  This tutorial illustrates the screens required to setup a Red Hat Enterprise
+  Linux in VMware player.
+---
+
+# Setup RHEL 9.2 Linux vm
+
+The following illustrates how to use VMware Player to setup a new vm, but you can use whatever hypervisor you want.
 
 <figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
@@ -52,40 +60,40 @@ Installation should now begin...
 
 
 
-![](<../../.gitbook/assets/image (101).png>)
+<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
 
 
-![](<../../.gitbook/assets/image (103).png>)
+<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
 
 
 
-![](<../../.gitbook/assets/image (104).png>)
+<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 
 
 
-![](<../../.gitbook/assets/image (105).png>)
+<figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
 
 
-![](<../../.gitbook/assets/image (108).png>)
+<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 
 
 
 
-![](<../../.gitbook/assets/image (109).png>)
+<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 
 
-![](<../../.gitbook/assets/image (110).png>)
+<figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 
 
-![](<../../.gitbook/assets/image (111).png>)
+<figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 
 
-![](<../../.gitbook/assets/image (112).png>)
+<figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
 ![](broken-reference)

@@ -23,11 +23,12 @@
   * [Allow Cross-Origin Requests To Include Cookies](general/networking/allow-cross-origin-requests-to-include-cookies.md)
 * [Virtualization](general/virtualization/README.md)
   * [Ubuntu Quick Install](general/virtualization/ubuntu-quick-install.md)
+  * [Setup RHEL 9.2 Linux vm](general/virtualization/setup-rhel-9.2-linux-vm.md)
+  * [Fedora 38 install](general/virtualization/fedora-38-install.md)
   * [Transfer files from Windows to Linux VM](general/virtualization/transfer-files-from-windows-to-ubuntu-vm.md)
   * [Hyper-V - Setup an Ubuntu 20.04 vm](general/virtualization/hyper-v-setup-an-ubuntu-20.04-vm.md)
   * [Virtual Box - Setup an Ubuntu 20.04 vm](general/virtualization/virtual-box-setup-an-ubuntu-20.04-vm.md)
   * [Virtual Box - Setup an Ubuntu 22.04 vm](general/virtualization/virtual-box-setup-an-ubuntu-22.04-vm.md)
-  * [vmware - Setup a RHEL 9.2 vm](general/virtualization/vmware-setup-a-rhel-9.2-vm.md)
 
 ## 💻 os
 
