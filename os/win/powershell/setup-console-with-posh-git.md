@@ -20,7 +20,7 @@ If you have issues and see blocks in the terminal, you may need to make sure wha
 
 <img src="../../../.gitbook/assets/image (20) (1) (1).png" alt="" data-size="original">
 
-![](<../../../.gitbook/assets/image (19) (1).png>)
+![](<../../../.gitbook/assets/image (19) (1) (1).png>)
 
 References:
 

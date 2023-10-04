@@ -18,7 +18,7 @@ Non-functional Requirements = Cross-Feature Requirements = Architecture Characte
 * Performance
 * Availability
 
-![Architectural Triad](<../../.gitbook/assets/image (8).png>)
+![Architectural Triad](<../../.gitbook/assets/image (8) (1).png>)
 
 ### Operational Architecture Characteristics
 
@@ -70,7 +70,7 @@ Non-functional Requirements = Cross-Feature Requirements = Architecture Characte
 * Too much abstractness & instability - zone of uselessness&#x20;
 * Too little abstraction & instability - zone of pain
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
 
 
@@ -89,7 +89,7 @@ Non-functional Requirements = Cross-Feature Requirements = Architecture Characte
   * User interface
 * Useful for structural analysis
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 
 
@@ -104,6 +104,6 @@ Non-functional Requirements = Cross-Feature Requirements = Architecture Characte
   * [https://archunit.org](https://archunit.org)
   * [https://Github.com/benmorris/netarchtest](https://github.com/benmorris/netarchtest)
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
