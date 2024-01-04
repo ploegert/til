@@ -18,7 +18,7 @@ Non-functional Requirements = Cross-Feature Requirements = Architecture Characte
 * Performance
 * Availability
 
-![Architectural Triad](<../../.gitbook/assets/image (8) (1).png>)
+![Architectural Triad](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 ### Operational Architecture Characteristics
 
@@ -70,7 +70,7 @@ Non-functional Requirements = Cross-Feature Requirements = Architecture Characte
 * Too much abstractness & instability - zone of uselessness&#x20;
 * Too little abstraction & instability - zone of pain
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 
 
