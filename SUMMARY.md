@@ -10,6 +10,12 @@
   * [Inclusiveness](general/agile-development/inclusiveness.md)
   * [OKRs](general/agile-development/okrs.md)
   * [Roles](general/agile-development/roles.md)
+  * [12 Principles of Agile](general/agile-development/12-principles-of-agile.md)
+  * [Zettel](general/agile-development/zettel.md)
+  * [Cognitive Bias](general/agile-development/cognitive-bias/README.md)
+    * [Present Bias](general/agile-development/cognitive-bias/present-bias.md)
+    * [Sunk cost fallac](general/agile-development/cognitive-bias/sunk-cost-fallac.md)
+    * [Ikea Effect](general/agile-development/cognitive-bias/ikea-effect.md)
 * [Architecture Development](general/architecture-development/README.md)
   * [Architectural-"ilities"](general/architecture-development/architectural-ilities.md)
   * [Architectual Considerations](general/architecture-development/architectual-considerations.md)
@@ -20,9 +26,9 @@
 * [Documentation](general/documentation/README.md)
   * [🧜 Mermaid](general/documentation/mermaid/README.md)
     * [🧜 Mermaid-Flowchart](general/documentation/mermaid/mermaid-flowchart.md)
-    * [🧜♀ Mermaid-Sequence](general/documentation/mermaid/mermaid-sequence.md)
-    * [🧜♂ Mermaid-Gnatt](general/documentation/mermaid/mermaid-gnatt.md)
-  * [⬇ Markdown](general/documentation/markdown.md)
+    * [🧜‍♀️ Mermaid-Sequence](general/documentation/mermaid/mermaid-sequence.md)
+    * [🧜‍♂️ Mermaid-Gnatt](general/documentation/mermaid/mermaid-gnatt.md)
+  * [⬇️ Markdown](general/documentation/markdown.md)
   * [MediaWiki](general/documentation/mediawiki.md)
 * [Networking](general/networking/README.md)
   * [Applications](general/networking/applications/README.md)
@@ -254,7 +260,7 @@
 * [🚇 wsl](os/wsl/README.md)
   * [Install Jupyter in WSL](os/wsl/install-jupyter-in-wsl.md)
 
-## 👩💻 programmy
+## 👩‍💻 programmy
 
 * [azure](cloud/azure/README.md)
   * [Setup Azure VM Ubuntu Server to be Desktop](cloud/azure/setup-azure-vm-ubuntu-server-to-be-desktop.md)
@@ -988,7 +994,7 @@
   * [Use An Array Check For Type Narrowing](programmy/typescript/use-an-array-check-for-type-narrowing.md)
   * [Zero-Config Environments For Trying Out Types](programmy/typescript/zero-config-environments-for-trying-out-types.md)
 
-## 🛠 Tools
+## 🛠️ Tools
 
 * [ack](tools/ack/README.md)
   * [ack --bar](tools/ack/ack-bar.md)
@@ -1124,6 +1130,7 @@
   * [Lets Encrypt](tools/kubernetes-1/lets-encrypt.md)
   * [Configure Ingress](tools/kubernetes-1/configure-ingress.md)
   * [Get all Images running in cluster](tools/kubernetes-1/get-all-images-running-in-cluster.md)
+  * [Benefits of K8S](tools/kubernetes-1/benefits-of-k8s.md)
 * [nginx](tools/nginx/README.md)
   * [Check The Syntax Of nginx Files](tools/nginx/check-the-syntax-of-nginx-files.md)
   * [Reload The nginx Configuration](tools/nginx/reload-the-nginx-configuration.md)
