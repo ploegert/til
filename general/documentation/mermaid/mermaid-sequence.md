@@ -1,4 +1,4 @@
-# 🧜♀ Mermaid-Sequence
+# 🧜‍♀️ Mermaid-Sequence
 
 > Cheat Sheet for Mermaid.
 
@@ -74,27 +74,23 @@ There are six types of arrows currently supported:
 
 ### 2.4 Activations
 
-| Feature                                                             | Diagram |                                                                                                                                                                                                                             |
-| ------------------------------------------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Activate and deactivate an actor.                                   |         | <pre><code>sequenceDiagram
+<table><thead><tr><th>Feature</th><th>Diagram</th><th></th></tr></thead><tbody><tr><td>Activate and deactivate an actor.</td><td></td><td><pre><code>sequenceDiagram
     Alice->>John: Hello John, how are you?
     activate John
     John-->>Alice: Great!
     deactivate John
             
-</code></pre>                                                            |
-| Shortcut notation by appending \`+/-\` suffix to the message arrow. |         | <pre><code>sequenceDiagram
+</code></pre></td></tr><tr><td>Shortcut notation by appending `+/-` suffix to the message arrow.</td><td></td><td><pre><code>sequenceDiagram
     Alice->>+John: Hello John, how are you?
     John-->>-Alice: Great!
             
-</code></pre>                                                                                                |
-| Activations can be stacked for same actor:                          |         | <pre><code>sequenceDiagram
+</code></pre></td></tr><tr><td>Activations can be stacked for same actor:</td><td></td><td><pre><code>sequenceDiagram
     Alice->>+John: Hello John, how are you?
     Alice->>+John: John, can you hear me?
     John-->>-Alice: Hi Alice, I can hear you!
     John-->>-Alice: I feel great!
             
-</code></pre> |
+</code></pre></td></tr></tbody></table>
 
 ### 2.5 Notes
 

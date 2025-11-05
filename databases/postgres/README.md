@@ -9,7 +9,7 @@
 | **View PostgreSQL client version**psql -V                                                                             |
 | **Check if Postgres is running**/etc/init.d/postgresql status                                                         |
 | **Start/Stop/Restart Postgres (SysVinit)**/etc/init.d/postgresql start \| stop \| restart                             |
-| **Start/Stop/Restart Postgres (Systemd)**systemctl start \| stop \| restart postgresql.service                        |
+| **Start/Stop/Restart Postgres (Systemd)**&#x73;ystemctl start \| stop \| restart postgresql.service                   |
 | **Enter our queries in our favorite editor**postgres=# \e                                                             |
 | **Change PostgreSQL root password**psql postgres postgres                                                             |
 |  postgres=# ALTER ROLE postgres WITH PASSWORD 'toto';                                                                 |
@@ -34,7 +34,7 @@
 | **Back up a single database**pg\_dump -U user nom\_DB -f madb.sql                                                                   |
 | ----------------------------------------------------------------------------------------------------------------------------------- |
 | **Back up all databases**pg\_dumpall > all.sql                                                                                      |
-| **Back up global objects (users + tablespaces)**pg\_dumpall -g > everything.sql                                                     |
+| **Back up global objects (users + tablespaces)**&#x70;g\_dumpall -g > everything.sql                                                |
 | **Back up a table**pg\_dump --table articles -U midori nom\_DB -f unetable.sql                                                      |
 | **Restore a database**psql -U midori -d nom\_DB -f madb.sql                                                                         |
 | **Restore all databases**psql -f all.sql                                                                                            |
@@ -84,8 +84,8 @@ These two variants require to be a postgres user (su - _postgres_).
 | **Calculate the disk space occupied by a database**postgres=# SELECT pg\_database\_size('foodb');                                                                                                                                                                                                                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |  postgres=# SELECT pg\_size\_pretty(pg\_database\_size('foodb'));                                                                                                                                                                                                                                                                                                 |
-| **Calculate disk space occupied by a table (including indexes)**postgres=# SELECT pg\_size\_pretty(pg\_total\_relation\_size('grosse\_table'));                                                                                                                                                                                                                   |
-| **Calculate the disk space occupied by a table (without the index)**postgres=# SELECT pg\_size\_pretty(pg\_relation\_size('grosse\_table'));                                                                                                                                                                                                                      |
+| **Calculate disk space occupied by a table (including indexes)**&#x70;ostgres=# SELECT pg\_size\_pretty(pg\_total\_relation\_size('grosse\_table'));                                                                                                                                                                                                              |
+| **Calculate the disk space occupied by a table (without the index)**&#x70;ostgres=# SELECT pg\_size\_pretty(pg\_relation\_size('grosse\_table'));                                                                                                                                                                                                                 |
 | **Find the largest table** (variant 1)postgres=# SELECT relname, relpages FROM pg\_class ORDER BY relpages DESC;                                                                                                                                                                                                                                                  |
 | **Find the largest table** (variant 2)postgres=# SELECT nspname \|\| '.' \|\| relname AS tablename, pg\_size\_pretty(pg\_table\_size((nspname \|\| '.' \|\| relname)::regclass)) AS size FROM pg\_class c JOIN pg\_namespace n ON (c.relnamespace = n.oid) WHERE relkind = 'r' ORDER BY pg\_table\_size((nspname \|\| '.' \|\| relname)::regclass) DESC LIMIT 10; |
 

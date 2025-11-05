@@ -9,7 +9,7 @@ Though there are a variety of formats to decode a string into, here are some exa
 => ["01000001"]
 ```
 
-The `B*` says _unpack_ this into as many _B_inary digits as are needed. The UTF-8 encoding, means only a single byte (8-bits) are needed to represent `"A"`.
+The `B*` says _unpack_ this into as many _&#x42;_&#x69;nary digits as are needed. The UTF-8 encoding, means only a single byte (8-bits) are needed to represent `"A"`.
 
 ```ruby
 irb(main):002:0> "Æ".unpack("B*")

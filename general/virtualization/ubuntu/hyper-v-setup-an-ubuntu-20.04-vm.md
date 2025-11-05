@@ -102,7 +102,7 @@ Check the **"Use LVM with the new Ubuntu installation",** and select **"Encrypt 
 
 Then select **"Install Now"**
 
-![](<../../../.gitbook/assets/image (19) (1).png>)
+![](<../../../.gitbook/assets/image (19) (1) (1).png>)
 
 Now you'll enter a security key, and select recovery key as shown below
 

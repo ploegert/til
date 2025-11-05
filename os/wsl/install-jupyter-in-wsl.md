@@ -39,7 +39,7 @@ vi ~/.bashrc
 alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"
 ```
 
-![](<../../.gitbook/assets/image (18) (1).png>)
+![](<../../.gitbook/assets/image (18) (1) (1).png>)
 
 * After that you have to source your file by updating your Bash profile by entering:
 
@@ -55,5 +55,5 @@ jupyter notebook
 
 
 
-**Reference/Orig Source Credit goes to**: [https://medium.com/@sayanghosh\_49221/jupyter-notebook-in-windows-subsystem-for-linux-wsl-f075f7ec8691](https://medium.com/@sayanghosh\_49221/jupyter-notebook-in-windows-subsystem-for-linux-wsl-f075f7ec8691)
+**Reference/Orig Source Credit goes to**: [https://medium.com/@sayanghosh\_49221/jupyter-notebook-in-windows-subsystem-for-linux-wsl-f075f7ec8691](https://medium.com/@sayanghosh_49221/jupyter-notebook-in-windows-subsystem-for-linux-wsl-f075f7ec8691)
 

@@ -33,39 +33,39 @@
 
 ## Motion <a href="#title_270_1163" id="title_270_1163"></a>
 
-| h           | Move left                                    |
-| ----------- | -------------------------------------------- |
-| j           | Move down                                    |
-| k           | Move up                                      |
-| l           | Move right                                   |
-| w           | Move to next word                            |
-| W           | Move to next blank delimited word            |
-| b           | Move to the beginning of the word            |
-| B           | Move to the beginning of blank delimted word |
-| e           | Move to the end of the word                  |
-| E           | Move to the end of Blank delimited word      |
-| (           | Move a sentence back                         |
-| )           | Move a sentence forward                      |
-| {           | Move a paragraph back                        |
-| }           | Move a paragraph forward                     |
-| 0           | Move to the begining of the line             |
-| $           | Move to the end of the line                  |
-| 1G          | Move to the first line of the file           |
-| G           | Move to the last line of the file            |
-| _n_G        | Move to _n_th line of the file               |
-| :_n_        | Move to _n_th line of the file               |
-| f_c_        | Move forward to _c_                          |
-| F_c_        | Move back to _c_                             |
-| H           | Move to top of screen                        |
-| M           | Move to middle of screen                     |
-| L           | Move to botton of screen                     |
-| %           | Move to associated ( ), { }, \[ ]            |
-| :0          | Move to the beginning of the file            |
-| :$          | Move to the end of the file                  |
-| \[ctrl] + d | go down half a screen                        |
-| \[ctrl] + u | go up half a screen                          |
-| \[ctrl] + f | go forward a screen                          |
-| \[ctrl] + b | go back a screen                             |
+| h              | Move left                                    |
+| -------------- | -------------------------------------------- |
+| j              | Move down                                    |
+| k              | Move up                                      |
+| l              | Move right                                   |
+| w              | Move to next word                            |
+| W              | Move to next blank delimited word            |
+| b              | Move to the beginning of the word            |
+| B              | Move to the beginning of blank delimted word |
+| e              | Move to the end of the word                  |
+| E              | Move to the end of Blank delimited word      |
+| (              | Move a sentence back                         |
+| )              | Move a sentence forward                      |
+| {              | Move a paragraph back                        |
+| }              | Move a paragraph forward                     |
+| 0              | Move to the begining of the line             |
+| $              | Move to the end of the line                  |
+| 1G             | Move to the first line of the file           |
+| G              | Move to the last line of the file            |
+| _&#x6E;_&#x47; | Move to _&#x6E;_&#x74;h line of the file     |
+| :_n_           | Move to _&#x6E;_&#x74;h line of the file     |
+| &#x66;_&#x63;_ | Move forward to _c_                          |
+| &#x46;_&#x63;_ | Move back to _c_                             |
+| H              | Move to top of screen                        |
+| M              | Move to middle of screen                     |
+| L              | Move to botton of screen                     |
+| %              | Move to associated ( ), { }, \[ ]            |
+| :0             | Move to the beginning of the file            |
+| :$             | Move to the end of the file                  |
+| \[ctrl] + d    | go down half a screen                        |
+| \[ctrl] + u    | go up half a screen                          |
+| \[ctrl] + f    | go forward a screen                          |
+| \[ctrl] + b    | go back a screen                             |
 
 ## Deleting Text <a href="#title_270_1167" id="title_270_1167"></a>
 
@@ -101,10 +101,10 @@
 
 ## Markers <a href="#title_270_1171" id="title_270_1171"></a>
 
-| m_c_  | Set marker _c_ on this line                         |
-| ----- | --------------------------------------------------- |
-| \`_c_ | Go to beginning of marker _c_ line.                 |
-| '_c_  | Go to first non-blank character of marker _c_ line. |
+| &#x6D;_&#x63;_ | Set marker _c_ on this line                         |
+| -------------- | --------------------------------------------------- |
+| \`_c_          | Go to beginning of marker _c_ line.                 |
+| '_c_           | Go to first non-blank character of marker _c_ line. |
 
 ## Search for strings <a href="#title_270_1172" id="title_270_1172"></a>
 

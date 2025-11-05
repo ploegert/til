@@ -16,4 +16,4 @@ description: Looking for ways to be more inclusive? Here are some resources to l
 
 ### Terms to consider: 
 
-![](<../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)

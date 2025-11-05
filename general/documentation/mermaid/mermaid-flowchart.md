@@ -18,66 +18,55 @@ Possible directions are:
 
 
 
-<table><thead><tr><th width="150.33333333333331">Direction</th><th width="329">Diagram</th><th>Definition</th></tr></thead><tbody><tr><td>TB</td><td><img src="../../../.gitbook/assets/image.png" alt="" data-size="original"></td><td><pre class="language-mermaid" data-full-width="true"><code class="lang-mermaid">graph TB;
+<table><thead><tr><th width="150.33333333333331">Direction</th><th width="329">Diagram</th><th>Definition</th></tr></thead><tbody><tr><td>TB</td><td><img src="../../../.gitbook/assets/image (20).png" alt="" data-size="original"></td><td><pre class="language-mermaid" data-full-width="true"><code class="lang-mermaid">graph TB;
     A-->B;
-</code></pre></td></tr><tr><td>BT</td><td><img src="../../../.gitbook/assets/image (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph BT;
+</code></pre></td></tr><tr><td>BT</td><td><img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph BT;
     A-->B;
-</code></pre></td></tr><tr><td>RL</td><td><img src="../../../.gitbook/assets/image (2).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph RL;
+</code></pre></td></tr><tr><td>RL</td><td><img src="../../../.gitbook/assets/image (2) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph RL;
     A-->B;
-</code></pre></td></tr><tr><td>LR</td><td><img src="../../../.gitbook/assets/image (3).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>LR</td><td><img src="../../../.gitbook/assets/image (3) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A-->B;
-</code></pre></td></tr><tr><td>TD</td><td><img src="../../../.gitbook/assets/image (4).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph TD;
+</code></pre></td></tr><tr><td>TD</td><td><img src="../../../.gitbook/assets/image (4) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph TD;
     A-->B;
 </code></pre></td></tr></tbody></table>
 
 ### 1.2 Nodes & shapes
 
-<table data-full-width="true"><thead><tr><th width="174.66666666666663">Feature</th><th width="309">Diagram</th><th>Definition</th></tr></thead><tbody><tr><td>Node(Default)</td><td><img src="../../../.gitbook/assets/image (5).png" alt="" data-size="original"></td><td>8a37b9ee03f84af584d9b57b1aac8f69</td></tr><tr><td>Node with Text</td><td><img src="../../../.gitbook/assets/image (6).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+<table data-full-width="true"><thead><tr><th width="174.66666666666663">Feature</th><th width="309">Diagram</th><th>Definition</th></tr></thead><tbody><tr><td>Node(Default)</td><td><img src="../../../.gitbook/assets/image (5) (1).png" alt="" data-size="original"></td><td>8a37b9ee03f84af584d9b57b1aac8f69</td></tr><tr><td>Node with Text</td><td><img src="../../../.gitbook/assets/image (6) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     id1[This is the text in the box]
-</code></pre></td></tr><tr><td>Node with Round Edges</td><td><img src="../../../.gitbook/assets/image (7).png" alt="" data-size="original"></td><td><pre><code>graph LR;
+</code></pre></td></tr><tr><td>Node with Round Edges</td><td><img src="../../../.gitbook/assets/image (7) (1).png" alt="" data-size="original"></td><td><pre><code>graph LR;
     id1(This is the text in the box)
-</code></pre></td></tr><tr><td>Node in Circle Form</td><td><img src="../../../.gitbook/assets/image (8).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Node in Circle Form</td><td><img src="../../../.gitbook/assets/image (8) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     id1((This is the text in the circle))
-</code></pre></td></tr><tr><td>Node in Asymmetric Shape</td><td><img src="../../../.gitbook/assets/image (9).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Node in Asymmetric Shape</td><td><img src="../../../.gitbook/assets/image (9) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     id1>This is the text in the box]
-</code></pre></td></tr><tr><td>Node in Rhombus Form</td><td><img src="../../../.gitbook/assets/image (10).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Node in Rhombus Form</td><td><img src="../../../.gitbook/assets/image (10) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     id1{This is the text in the box}
 </code></pre></td></tr></tbody></table>
 
 ### 1.3 Links Between Nodes
 
-| Feature                          | Diagram                            | Definition                                                                                                     |
-| -------------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Link with Arrow Head             | graph LR;A-->B                     | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+<table><thead><tr><th>Feature</th><th>Diagram</th><th>Definition</th></tr></thead><tbody><tr><td>Link with Arrow Head</td><td>graph LR;A-->B</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A-->B
-</code></pre>                     |
-| Open Link                        | graph LR;A---B                     | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Open Link</td><td>graph LR;A---B</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A---B
-</code></pre>                     |
-| Text on Links(1)                 | graph LR;A-- This is the text ---B | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Text on Links(1)</td><td>graph LR;A-- This is the text ---B</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A-- This is the text ---B
-</code></pre> |
-| Text on Links(2)                 | graph LR;A---\|This is the text\|B | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Text on Links(2)</td><td>graph LR;A---|This is the text|B</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A---|This is the text|B
-</code></pre>   |
-| Link with Arrow Head and Text(1) | graph LR;A-->\|text\|B             | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Link with Arrow Head and Text(1)</td><td>graph LR;A-->|text|B</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A-->|text|B
-</code></pre>               |
-| Link with Arrow Head and Text(2) | graph LR;A-- text -->B             | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Link with Arrow Head and Text(2)</td><td>graph LR;A-- text -->B</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A-- text -->B
-</code></pre>             |
-| Dotted Link                      | graph LR;A-.->B;                   | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Dotted Link</td><td>graph LR;A-.->B;</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A-.->B;
-</code></pre>                   |
-| Dotted Link with Text            | graph LR;A-. text .-> B            | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Dotted Link with Text</td><td>graph LR;A-. text .-> B</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A-. text .-> B
-</code></pre>            |
-| Thick Link                       | graph LR;A ==> B                   | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Thick Link</td><td>graph LR;A ==> B</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A ==> B
-</code></pre>                   |
-| Thick link with text             | graph LR;A == text ==> B           | <pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>Thick link with text</td><td>graph LR;A == text ==> B</td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A == text ==> B
-</code></pre>           |
+</code></pre></td></tr></tbody></table>
 
 ### 1.4 Subgraphs
 
