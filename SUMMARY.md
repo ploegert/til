@@ -225,6 +225,7 @@
     * [Compare Two Variables In A Bash Script](os/unix/variables/compare-two-variables-in-a-bash-script.md)
     * [Provide A Fallback Value For Unset Parameter](os/unix/variables/provide-a-fallback-value-for-unset-parameter.md)
     * [Check If The First Argument Is Given](os/unix/variables/check-if-the-first-argument-is-given.md)
+  * [Fedora](os/unix/fedora.md)
 * [🍎 mac](os/mac/README.md)
   * [Access All Screen And Video Capture Options](os/mac/access-all-screen-and-video-capture-options.md)
   * [Access System Information On OS X](os/mac/access-system-information-on-osx.md)
