@@ -28,21 +28,19 @@ sudo apt-get update && sudo apt-get install charles-proxy5
 
 * Open Charles and go to: **Proxy → SSL Proxying Settings → Enable SSL Proxying**.\
   \
-  <img src="../../../.gitbook/assets/image.png" alt="" data-size="original">\
-
+  <img src="../../../.gitbook/assets/image (14).png" alt="" data-size="original"><br>
 * Click **Add** and enter:
   * **Host:** `*` (wildcard for all hosts)
   * **Port:** `443`&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 \
-\
-
+<br>
 
 * This ensures all HTTPS traffic is decrypted.charlesproxy
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -52,15 +50,15 @@ sudo apt-get update && sudo apt-get install charles-proxy5
 
 * In Charles, go to: **Help → SSL Proxying → Export Charles Root Certificate and private key**.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 * set a password you can remember - only need it for a short while
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Name the file charles.p12
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Convert the p12 file to PEM
 
@@ -72,7 +70,7 @@ openssl pkcs12 -in charles.p12 -out charles.pem -nodes
 
 > Note: it will prompt you for that password we created before:&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 * now when we try to inspect the newly exported .pem file, it will have a public and private key that is readable:
 
@@ -148,7 +146,7 @@ charles
 
 and it should look pretty empty without anything going on.
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Now lets do the thing!
 
@@ -162,7 +160,7 @@ curl http://www.google.com
 curl https://www.google.com 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 Now if I go look at Charles, I should see two entries&#x20;
 

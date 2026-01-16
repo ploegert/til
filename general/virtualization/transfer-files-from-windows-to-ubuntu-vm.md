@@ -1,5 +1,6 @@
 ---
 description: Need to copy a file from a windows hope to a linux vm? We got you!
+icon: linux
 ---
 
 # Transfer files from Windows to Linux VM

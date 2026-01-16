@@ -96,4 +96,4 @@ Installation should now begin...
 
 <figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
-![](broken-reference)
+![](/broken/files/MXaxLPBBPygnO18McLJi)

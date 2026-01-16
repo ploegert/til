@@ -14,6 +14,6 @@ description: Looking for ways to be more inclusive? Here are some resources to l
 * Nuget Inclusiveness Analyzer [https://www.nuget.org/packages/InclusivenessAnalyzer/](https://www.nuget.org/packages/InclusivenessAnalyzer/)
 * Visual Studio Code:  [https://marketplace.visualstudio.com/items?itemName=InclusivenessAnalyzer.inclusivenessanalyzer](https://marketplace.visualstudio.com/items?itemName=InclusivenessAnalyzer.inclusivenessanalyzer)
 
-### Terms to consider: 
+### Terms to consider:<br>
 
 ![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
