@@ -64,13 +64,13 @@ sudo apt install build-essential dkms linux-headers-generic
 
 You have to allow the enhanced session mode in general Hyper-V settings. Otherwise, the enhanced session mode icon will be inactive in the VM window. Open Hyper-V Manager, right-click the name of your host Windows machine on which Hyper-V is installed, and, in the context menu, click **Hyper-V Settings**.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 There are two different settings that have "_**Enhanced Session Mode Policy."** &#x53;_&#x65;lect the **Allow enhanced session mode** checkbox on both. Hit **OK** to save Hyper-V settings and close the window.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -94,11 +94,11 @@ Use double quotas if the VM name contains spaces. In my case the command is:
 
 You'll know that you made progress if when you launch your vm, you get a dialog that asks you to set the terminal size:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 If your goal is to connect USB accessories (perhaps a Yubikey?), then you'll want to make sure you select --> Show Options, and select "**Local Resources**"
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then select "**More**", because oh boy do you want more!
 

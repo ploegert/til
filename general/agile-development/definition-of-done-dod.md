@@ -1,6 +1,8 @@
 # Definition of Done (DOD)
 
-## Feature: Definition of Done&#x20;
+## Feature: &#x20;
+
+What is the definition of done for Features?
 
 ### Scope&#x20;
 
@@ -29,7 +31,7 @@
 
 ## Work Item: Definition of Done
 
-### Work Item: Definition of Done&#x20;
+What is the definition of done for PBI/Work Items?
 
 * Code is competed with no significant defects&#x20;
 * Code is peer reviewed&#x20;
@@ -41,3 +43,9 @@
 * Code is moved to QA&#x20;
 * The test results match the acceptance criteria&#x20;
 * CI/CD automation is in place All tasks are marked as done
+
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

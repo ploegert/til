@@ -20,19 +20,19 @@ Possible directions are:
 
 <table><thead><tr><th width="150.33333333333331">Direction</th><th width="329">Diagram</th><th>Definition</th></tr></thead><tbody><tr><td>TB</td><td><img src="../../../.gitbook/assets/image (20).png" alt="" data-size="original"></td><td><pre class="language-mermaid" data-full-width="true"><code class="lang-mermaid">graph TB;
     A-->B;
-</code></pre></td></tr><tr><td>BT</td><td><img src="../../../.gitbook/assets/image (1) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph BT;
+</code></pre></td></tr><tr><td>BT</td><td><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph BT;
     A-->B;
-</code></pre></td></tr><tr><td>RL</td><td><img src="../../../.gitbook/assets/image (2) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph RL;
+</code></pre></td></tr><tr><td>RL</td><td><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph RL;
     A-->B;
-</code></pre></td></tr><tr><td>LR</td><td><img src="../../../.gitbook/assets/image (3) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+</code></pre></td></tr><tr><td>LR</td><td><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     A-->B;
-</code></pre></td></tr><tr><td>TD</td><td><img src="../../../.gitbook/assets/image (4) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph TD;
+</code></pre></td></tr><tr><td>TD</td><td><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph TD;
     A-->B;
 </code></pre></td></tr></tbody></table>
 
 ### 1.2 Nodes & shapes
 
-<table data-full-width="true"><thead><tr><th width="174.66666666666663">Feature</th><th width="309">Diagram</th><th>Definition</th></tr></thead><tbody><tr><td>Node(Default)</td><td><img src="../../../.gitbook/assets/image (5) (1).png" alt="" data-size="original"></td><td>8a37b9ee03f84af584d9b57b1aac8f69</td></tr><tr><td>Node with Text</td><td><img src="../../../.gitbook/assets/image (6) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
+<table data-full-width="true"><thead><tr><th width="174.66666666666663">Feature</th><th width="309">Diagram</th><th>Definition</th></tr></thead><tbody><tr><td>Node(Default)</td><td><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt="" data-size="original"></td><td>8a37b9ee03f84af584d9b57b1aac8f69</td></tr><tr><td>Node with Text</td><td><img src="../../../.gitbook/assets/image (6) (1).png" alt="" data-size="original"></td><td><pre class="language-mermaid"><code class="lang-mermaid">graph LR;
     id1[This is the text in the box]
 </code></pre></td></tr><tr><td>Node with Round Edges</td><td><img src="../../../.gitbook/assets/image (7) (1).png" alt="" data-size="original"></td><td><pre><code>graph LR;
     id1(This is the text in the box)
